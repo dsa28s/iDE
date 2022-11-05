@@ -1,3 +1,0 @@
-[submodule "ThirdParties/nodejs"]
-	path = ThirdParties/nodejs
-	url = https://github.com/nodejs/node.git
