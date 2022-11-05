@@ -7,3 +7,5 @@ out/
 
 # Build outputs
 build-iOS-arm64/
+sysroot-iOS-arm64/
+
