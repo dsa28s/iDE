@@ -252,7 +252,7 @@ build_pkg_config() {
     cd "$DIR"
     if [ -z "$REBUILD" ]; then
         echo "${GREEN}Configuring ${NAME}...${NC}"
-        ./configure --prefix="$PREFIX" --bindir="$PREFIX/host/bin" --with-internal-glib $@
+        env -i ./configure --prefix="$PREFIX" --bindir="$PREFIX/host/bin" --with-internal-glib $@
     fi
     echo "${GREEN}Building ${NAME}...${NC}"
     make -j$NCPU
@@ -455,7 +455,7 @@ build_hypervisor () {
     cd "$BUILD_DIR/Hypervisor.git"
 
     echo "${GREEN}Building Hypervisor...${NC}"
-    xcodebuild archive -archivePath "Hypervisor" -scheme "Hypervisor" -sdk $SDK -configuration Release
+    env -i PATH="$PATH" xcodebuild archive -archivePath "Hypervisor" -scheme "Hypervisor" -sdk $SDK -configuration Release
 
     rsync -a "Hypervisor.xcarchive/Products/Library/Frameworks/" "$PREFIX/Frameworks"
     cd "$pwd"
