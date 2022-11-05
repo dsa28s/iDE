@@ -252,7 +252,7 @@ build_pkg_config() {
     cd "$DIR"
     if [ -z "$REBUILD" ]; then
         echo "${GREEN}Configuring ${NAME}...${NC}"
-        env -i ./configure --prefix="$PREFIX" --bindir="$PREFIX/host/bin" --with-internal-glib $@
+        ./configure --prefix="$PREFIX" --bindir="$PREFIX/host/bin" --with-internal-glib $@
     fi
     echo "${GREEN}Building ${NAME}...${NC}"
     make -j$NCPU
@@ -455,7 +455,7 @@ build_hypervisor () {
     cd "$BUILD_DIR/Hypervisor.git"
 
     echo "${GREEN}Building Hypervisor...${NC}"
-    env -i PATH=$PATH xcodebuild archive -archivePath "Hypervisor" -scheme "Hypervisor" -sdk $SDK -configuration Release
+    xcodebuild archive -archivePath "Hypervisor" -scheme "Hypervisor" -sdk $SDK -configuration Release
 
     rsync -a "Hypervisor.xcarchive/Products/Library/Frameworks/" "$PREFIX/Frameworks"
     cd "$pwd"
@@ -711,7 +711,7 @@ export SDKMINVER
 BASEDIR="$(dirname "$(realpath $0)")"
 BUILD_DIR="build-$PLATFORM_FAMILY_NAME-$ARCH"
 SYSROOT_DIR="sysroot-$PLATFORM_FAMILY_NAME-$ARCH"
-PATCHES_DIR="$BASEDIR/../patches"
+PATCHES_DIR="$BASEDIR/../utm-qemu-patches"
 
 # Include URL list
 source "$PATCHES_DIR/sources"
