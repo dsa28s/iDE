@@ -5,3 +5,5 @@ out/
 # macOS
 .DS_Store
 
+# Build outputs
+build-iOS-arm64/
