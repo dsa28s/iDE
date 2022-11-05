@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA8F49292916A84300A7CC2A /* iDEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49282916A84300A7CC2A /* iDEApp.swift */; };
-		BA8F492B2916A84300A7CC2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F492A2916A84300A7CC2A /* ContentView.swift */; };
+		BA8F492B2916A84300A7CC2A /* MainEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */; };
 		BA8F492D2916A84300A7CC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8F492C2916A84300A7CC2A /* Assets.xcassets */; };
 		BA8F49302916A84400A7CC2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8F492F2916A84400A7CC2A /* Preview Assets.xcassets */; };
 		BA8F493A2916A84400A7CC2A /* iDETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49392916A84400A7CC2A /* iDETests.swift */; };
@@ -123,7 +123,7 @@
 		BA3C88F32916AC3300F9DBFA /* usbredirparser.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = usbredirparser.1.framework; path = QEMUFrameworks/usbredirparser.1.framework; sourceTree = "<group>"; };
 		BA8F49252916A84300A7CC2A /* iDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8F49282916A84300A7CC2A /* iDEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDEApp.swift; sourceTree = "<group>"; };
-		BA8F492A2916A84300A7CC2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
 		BA8F492C2916A84300A7CC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA8F492F2916A84400A7CC2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA8F49352916A84400A7CC2A /* iDETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -277,7 +277,7 @@
 			children = (
 				BA3C889C2916AA1700F9DBFA /* iDE.entitlements */,
 				BA8F49282916A84300A7CC2A /* iDEApp.swift */,
-				BA8F492A2916A84300A7CC2A /* ContentView.swift */,
+				BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */,
 				BA8F492C2916A84300A7CC2A /* Assets.xcassets */,
 				BA8F492E2916A84400A7CC2A /* Preview Content */,
 			);
@@ -439,7 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8F492B2916A84300A7CC2A /* ContentView.swift in Sources */,
+				BA8F492B2916A84300A7CC2A /* MainEntryPoint.swift in Sources */,
 				BA8F49292916A84300A7CC2A /* iDEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
