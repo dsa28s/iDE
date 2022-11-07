@@ -7,6 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA6BEAC329193B4400F6AF86 /* asprintf.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9129193A9B00512801 /* asprintf.0.xcframework */; };
+		BA6BEAC429193B4400F6AF86 /* asprintf.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9129193A9B00512801 /* asprintf.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAC529193B4400F6AF86 /* charset.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8C29193A9A00512801 /* charset.1.xcframework */; };
+		BA6BEAC629193B4400F6AF86 /* charset.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8C29193A9A00512801 /* charset.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAC729193B4400F6AF86 /* crypto.1.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6829193A9400512801 /* crypto.1.1.xcframework */; };
+		BA6BEAC829193B4400F6AF86 /* crypto.1.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6829193A9400512801 /* crypto.1.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAC929193B4400F6AF86 /* EGL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8829193A9900512801 /* EGL.xcframework */; };
+		BA6BEACA29193B4400F6AF86 /* EGL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8829193A9900512801 /* EGL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEACB29193B4400F6AF86 /* epoxy.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5B29193A9300512801 /* epoxy.0.xcframework */; };
+		BA6BEACC29193B4400F6AF86 /* epoxy.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5B29193A9300512801 /* epoxy.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEACD29193B4400F6AF86 /* ffi.7.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7529193A9600512801 /* ffi.7.xcframework */; };
+		BA6BEACE29193B4400F6AF86 /* ffi.7.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7529193A9600512801 /* ffi.7.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEACF29193B4400F6AF86 /* gcrypt.20.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA129193A9D00512801 /* gcrypt.20.xcframework */; };
+		BA6BEAD029193B4400F6AF86 /* gcrypt.20.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA129193A9D00512801 /* gcrypt.20.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAD129193B4400F6AF86 /* gettextlib-0.21.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7129193A9600512801 /* gettextlib-0.21.xcframework */; };
+		BA6BEAD229193B4400F6AF86 /* gettextlib-0.21.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7129193A9600512801 /* gettextlib-0.21.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAD329193B4400F6AF86 /* gettextpo.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6429193A9400512801 /* gettextpo.0.xcframework */; };
+		BA6BEAD429193B4400F6AF86 /* gettextpo.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6429193A9400512801 /* gettextpo.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAD529193B4400F6AF86 /* gettextsrc-0.21.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7229193A9600512801 /* gettextsrc-0.21.xcframework */; };
+		BA6BEAD629193B4400F6AF86 /* gettextsrc-0.21.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7229193A9600512801 /* gettextsrc-0.21.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAD729193B4400F6AF86 /* gio-2.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6729193A9400512801 /* gio-2.0.0.xcframework */; };
+		BA6BEAD829193B4400F6AF86 /* gio-2.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6729193A9400512801 /* gio-2.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAD929193B4400F6AF86 /* GLESv2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA529193A9E00512801 /* GLESv2.xcframework */; };
+		BA6BEADA29193B4400F6AF86 /* GLESv2.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA529193A9E00512801 /* GLESv2.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEADB29193B4400F6AF86 /* glib-2.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6229193A9400512801 /* glib-2.0.0.xcframework */; };
+		BA6BEADC29193B4400F6AF86 /* glib-2.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6229193A9400512801 /* glib-2.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEADD29193B4400F6AF86 /* gmodule-2.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7F29193A9800512801 /* gmodule-2.0.0.xcframework */; };
+		BA6BEADE29193B4400F6AF86 /* gmodule-2.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7F29193A9800512801 /* gmodule-2.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEADF29193B4400F6AF86 /* gobject-2.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7E29193A9800512801 /* gobject-2.0.0.xcframework */; };
+		BA6BEAE029193B4400F6AF86 /* gobject-2.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7E29193A9800512801 /* gobject-2.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAE129193B4400F6AF86 /* gpg-error.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8A29193A9A00512801 /* gpg-error.0.xcframework */; };
+		BA6BEAE229193B4400F6AF86 /* gpg-error.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8A29193A9A00512801 /* gpg-error.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAE329193B4400F6AF86 /* graphene-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9829193A9C00512801 /* graphene-1.0.0.xcframework */; };
+		BA6BEAE429193B4400F6AF86 /* graphene-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9829193A9C00512801 /* graphene-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAE529193B4400F6AF86 /* gstallocators-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9E29193A9D00512801 /* gstallocators-1.0.0.xcframework */; };
+		BA6BEAE629193B4400F6AF86 /* gstallocators-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9E29193A9D00512801 /* gstallocators-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAE729193B4400F6AF86 /* gstapp-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9929193A9C00512801 /* gstapp-1.0.0.xcframework */; };
+		BA6BEAE829193B4400F6AF86 /* gstapp-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9929193A9C00512801 /* gstapp-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAE929193B4400F6AF86 /* gstaudio-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8429193A9900512801 /* gstaudio-1.0.0.xcframework */; };
+		BA6BEAEA29193B4400F6AF86 /* gstaudio-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8429193A9900512801 /* gstaudio-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAEB29193B4400F6AF86 /* gstbase-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7929193A9700512801 /* gstbase-1.0.0.xcframework */; };
+		BA6BEAEC29193B4400F6AF86 /* gstbase-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7929193A9700512801 /* gstbase-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAED29193B4400F6AF86 /* gstcheck-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6E29193A9500512801 /* gstcheck-1.0.0.xcframework */; };
+		BA6BEAEE29193B4400F6AF86 /* gstcheck-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6E29193A9500512801 /* gstcheck-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAEF29193B4400F6AF86 /* gstcontroller-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAC29193A9F00512801 /* gstcontroller-1.0.0.xcframework */; };
+		BA6BEAF029193B4400F6AF86 /* gstcontroller-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAC29193A9F00512801 /* gstcontroller-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAF129193B4400F6AF86 /* gstfft-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7429193A9600512801 /* gstfft-1.0.0.xcframework */; };
+		BA6BEAF229193B4400F6AF86 /* gstfft-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7429193A9600512801 /* gstfft-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAF329193B4400F6AF86 /* gstgl-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAB29193A9F00512801 /* gstgl-1.0.0.xcframework */; };
+		BA6BEAF429193B4400F6AF86 /* gstgl-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAB29193A9F00512801 /* gstgl-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAF529193B4400F6AF86 /* gstnet-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9329193A9B00512801 /* gstnet-1.0.0.xcframework */; };
+		BA6BEAF629193B4400F6AF86 /* gstnet-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9329193A9B00512801 /* gstnet-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAF729193B4400F6AF86 /* gstpbutils-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8029193A9800512801 /* gstpbutils-1.0.0.xcframework */; };
+		BA6BEAF829193B4400F6AF86 /* gstpbutils-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8029193A9800512801 /* gstpbutils-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAF929193B4500F6AF86 /* gstreamer-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9C29193A9C00512801 /* gstreamer-1.0.0.xcframework */; };
+		BA6BEAFA29193B4500F6AF86 /* gstreamer-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9C29193A9C00512801 /* gstreamer-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAFB29193B4500F6AF86 /* gstriff-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9B29193A9C00512801 /* gstriff-1.0.0.xcframework */; };
+		BA6BEAFC29193B4500F6AF86 /* gstriff-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9B29193A9C00512801 /* gstriff-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAFD29193B4500F6AF86 /* gstrtp-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAD29193A9F00512801 /* gstrtp-1.0.0.xcframework */; };
+		BA6BEAFE29193B4500F6AF86 /* gstrtp-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAD29193A9F00512801 /* gstrtp-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEAFF29193B4500F6AF86 /* gstrtsp-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9A29193A9C00512801 /* gstrtsp-1.0.0.xcframework */; };
+		BA6BEB0029193B4500F6AF86 /* gstrtsp-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9A29193A9C00512801 /* gstrtsp-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB0129193B4500F6AF86 /* gstsdp-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA029193A9D00512801 /* gstsdp-1.0.0.xcframework */; };
+		BA6BEB0229193B4500F6AF86 /* gstsdp-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA029193A9D00512801 /* gstsdp-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB0329193B4500F6AF86 /* gsttag-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5F29193A9300512801 /* gsttag-1.0.0.xcframework */; };
+		BA6BEB0429193B4500F6AF86 /* gsttag-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5F29193A9300512801 /* gsttag-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB0529193B4500F6AF86 /* gstvideo-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8B29193A9A00512801 /* gstvideo-1.0.0.xcframework */; };
+		BA6BEB0629193B4500F6AF86 /* gstvideo-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8B29193A9A00512801 /* gstvideo-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB0729193B4500F6AF86 /* gthread-2.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6329193A9400512801 /* gthread-2.0.0.xcframework */; };
+		BA6BEB0829193B4500F6AF86 /* gthread-2.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6329193A9400512801 /* gthread-2.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB0929193B4500F6AF86 /* iconv.2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAA29193A9F00512801 /* iconv.2.xcframework */; };
+		BA6BEB0A29193B4500F6AF86 /* iconv.2.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAA29193A9F00512801 /* iconv.2.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB0B29193B4500F6AF86 /* intl.8.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9D29193A9D00512801 /* intl.8.xcframework */; };
+		BA6BEB0C29193B4500F6AF86 /* intl.8.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9D29193A9D00512801 /* intl.8.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB0D29193B4500F6AF86 /* jpeg.62.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9529193A9B00512801 /* jpeg.62.xcframework */; };
+		BA6BEB0E29193B4500F6AF86 /* jpeg.62.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9529193A9B00512801 /* jpeg.62.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB0F29193B4500F6AF86 /* json-glib-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8329193A9800512801 /* json-glib-1.0.0.xcframework */; };
+		BA6BEB1029193B4500F6AF86 /* json-glib-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8329193A9800512801 /* json-glib-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB1129193B4500F6AF86 /* opus.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6929193A9500512801 /* opus.0.xcframework */; };
+		BA6BEB1229193B4500F6AF86 /* opus.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6929193A9500512801 /* opus.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB1329193B4500F6AF86 /* phodav-2.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8729193A9900512801 /* phodav-2.0.0.xcframework */; };
+		BA6BEB1429193B4500F6AF86 /* phodav-2.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8729193A9900512801 /* phodav-2.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB1529193B4500F6AF86 /* pixman-1.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7329193A9600512801 /* pixman-1.0.xcframework */; };
+		BA6BEB1629193B4500F6AF86 /* pixman-1.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7329193A9600512801 /* pixman-1.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB1729193B4500F6AF86 /* png16.16.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA929193A9F00512801 /* png16.16.xcframework */; };
+		BA6BEB1829193B4500F6AF86 /* png16.16.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA929193A9F00512801 /* png16.16.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB1929193B4500F6AF86 /* qemu-aarch64-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7829193A9700512801 /* qemu-aarch64-softmmu.xcframework */; };
+		BA6BEB1A29193B4500F6AF86 /* qemu-aarch64-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7829193A9700512801 /* qemu-aarch64-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB1B29193B4500F6AF86 /* qemu-alpha-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5C29193A9300512801 /* qemu-alpha-softmmu.xcframework */; };
+		BA6BEB1C29193B4500F6AF86 /* qemu-alpha-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5C29193A9300512801 /* qemu-alpha-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB1D29193B4500F6AF86 /* qemu-arm-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6A29193A9500512801 /* qemu-arm-softmmu.xcframework */; };
+		BA6BEB1E29193B4500F6AF86 /* qemu-arm-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6A29193A9500512801 /* qemu-arm-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB1F29193B4500F6AF86 /* qemu-avr-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA829193A9E00512801 /* qemu-avr-softmmu.xcframework */; };
+		BA6BEB2029193B4500F6AF86 /* qemu-avr-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA829193A9E00512801 /* qemu-avr-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB2129193B4500F6AF86 /* qemu-cris-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA229193A9D00512801 /* qemu-cris-softmmu.xcframework */; };
+		BA6BEB2229193B4500F6AF86 /* qemu-cris-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA229193A9D00512801 /* qemu-cris-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB2329193B4500F6AF86 /* qemu-hppa-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8629193A9900512801 /* qemu-hppa-softmmu.xcframework */; };
+		BA6BEB2429193B4500F6AF86 /* qemu-hppa-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8629193A9900512801 /* qemu-hppa-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB2529193B4500F6AF86 /* qemu-i386-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8D29193A9A00512801 /* qemu-i386-softmmu.xcframework */; };
+		BA6BEB2629193B4500F6AF86 /* qemu-i386-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8D29193A9A00512801 /* qemu-i386-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB2729193B4500F6AF86 /* qemu-img.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8F29193A9A00512801 /* qemu-img.xcframework */; };
+		BA6BEB2829193B4500F6AF86 /* qemu-img.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8F29193A9A00512801 /* qemu-img.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB2929193B4500F6AF86 /* qemu-loongarch64-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5D29193A9300512801 /* qemu-loongarch64-softmmu.xcframework */; };
+		BA6BEB2A29193B4500F6AF86 /* qemu-loongarch64-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5D29193A9300512801 /* qemu-loongarch64-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB2B29193B4500F6AF86 /* qemu-m68k-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5E29193A9300512801 /* qemu-m68k-softmmu.xcframework */; };
+		BA6BEB2C29193B4500F6AF86 /* qemu-m68k-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5E29193A9300512801 /* qemu-m68k-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB2D29193B4500F6AF86 /* qemu-microblaze-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6529193A9400512801 /* qemu-microblaze-softmmu.xcframework */; };
+		BA6BEB2E29193B4500F6AF86 /* qemu-microblaze-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6529193A9400512801 /* qemu-microblaze-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB2F29193B4500F6AF86 /* qemu-microblazeel-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6029193A9300512801 /* qemu-microblazeel-softmmu.xcframework */; };
+		BA6BEB3029193B4500F6AF86 /* qemu-microblazeel-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6029193A9300512801 /* qemu-microblazeel-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB3129193B4500F6AF86 /* qemu-mips-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7D29193A9700512801 /* qemu-mips-softmmu.xcframework */; };
+		BA6BEB3229193B4500F6AF86 /* qemu-mips-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7D29193A9700512801 /* qemu-mips-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB3329193B4500F6AF86 /* qemu-mips64-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA629193A9E00512801 /* qemu-mips64-softmmu.xcframework */; };
+		BA6BEB3429193B4500F6AF86 /* qemu-mips64-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA629193A9E00512801 /* qemu-mips64-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB3529193B4500F6AF86 /* qemu-mips64el-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7B29193A9700512801 /* qemu-mips64el-softmmu.xcframework */; };
+		BA6BEB3629193B4500F6AF86 /* qemu-mips64el-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7B29193A9700512801 /* qemu-mips64el-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB3729193B4500F6AF86 /* qemu-mipsel-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA329193A9D00512801 /* qemu-mipsel-softmmu.xcframework */; };
+		BA6BEB3829193B4500F6AF86 /* qemu-mipsel-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA329193A9D00512801 /* qemu-mipsel-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB3929193B4500F6AF86 /* qemu-nios2-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6B29193A9500512801 /* qemu-nios2-softmmu.xcframework */; };
+		BA6BEB3A29193B4600F6AF86 /* qemu-nios2-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6B29193A9500512801 /* qemu-nios2-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB3B29193B4600F6AF86 /* qemu-or1k-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8129193A9800512801 /* qemu-or1k-softmmu.xcframework */; };
+		BA6BEB3C29193B4600F6AF86 /* qemu-or1k-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8129193A9800512801 /* qemu-or1k-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB3D29193B4600F6AF86 /* qemu-ppc-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA429193A9E00512801 /* qemu-ppc-softmmu.xcframework */; };
+		BA6BEB3E29193B4600F6AF86 /* qemu-ppc-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA429193A9E00512801 /* qemu-ppc-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB3F29193B4600F6AF86 /* qemu-ppc64-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9729193A9C00512801 /* qemu-ppc64-softmmu.xcframework */; };
+		BA6BEB4029193B4600F6AF86 /* qemu-ppc64-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9729193A9C00512801 /* qemu-ppc64-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB4129193B4600F6AF86 /* qemu-riscv32-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6129193A9300512801 /* qemu-riscv32-softmmu.xcframework */; };
+		BA6BEB4229193B4600F6AF86 /* qemu-riscv32-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6129193A9300512801 /* qemu-riscv32-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB4329193B4600F6AF86 /* qemu-riscv64-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6629193A9400512801 /* qemu-riscv64-softmmu.xcframework */; };
+		BA6BEB4429193B4600F6AF86 /* qemu-riscv64-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6629193A9400512801 /* qemu-riscv64-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB4529193B4600F6AF86 /* qemu-rx-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9229193A9B00512801 /* qemu-rx-softmmu.xcframework */; };
+		BA6BEB4629193B4600F6AF86 /* qemu-rx-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9229193A9B00512801 /* qemu-rx-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB4729193B4600F6AF86 /* qemu-s390x-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8929193A9900512801 /* qemu-s390x-softmmu.xcframework */; };
+		BA6BEB4829193B4600F6AF86 /* qemu-s390x-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8929193A9900512801 /* qemu-s390x-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB4929193B4600F6AF86 /* qemu-sh4-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9629193A9B00512801 /* qemu-sh4-softmmu.xcframework */; };
+		BA6BEB4A29193B4600F6AF86 /* qemu-sh4-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9629193A9B00512801 /* qemu-sh4-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB4B29193B4600F6AF86 /* qemu-sh4eb-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7629193A9600512801 /* qemu-sh4eb-softmmu.xcframework */; };
+		BA6BEB4C29193B4600F6AF86 /* qemu-sh4eb-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7629193A9600512801 /* qemu-sh4eb-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB4D29193B4600F6AF86 /* qemu-sparc-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8229193A9800512801 /* qemu-sparc-softmmu.xcframework */; };
+		BA6BEB4E29193B4600F6AF86 /* qemu-sparc-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8229193A9800512801 /* qemu-sparc-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB4F29193B4600F6AF86 /* qemu-sparc64-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5A29193A9300512801 /* qemu-sparc64-softmmu.xcframework */; };
+		BA6BEB5029193B4600F6AF86 /* qemu-sparc64-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E5A29193A9300512801 /* qemu-sparc64-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB5129193B4600F6AF86 /* qemu-tricore-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7029193A9500512801 /* qemu-tricore-softmmu.xcframework */; };
+		BA6BEB5229193B4600F6AF86 /* qemu-tricore-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7029193A9500512801 /* qemu-tricore-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB5329193B4600F6AF86 /* qemu-x86_64-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7729193A9700512801 /* qemu-x86_64-softmmu.xcframework */; };
+		BA6BEB5429193B4600F6AF86 /* qemu-x86_64-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7729193A9700512801 /* qemu-x86_64-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB5529193B4600F6AF86 /* qemu-xtensa-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6C29193A9500512801 /* qemu-xtensa-softmmu.xcframework */; };
+		BA6BEB5629193B4600F6AF86 /* qemu-xtensa-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6C29193A9500512801 /* qemu-xtensa-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB5729193B4600F6AF86 /* qemu-xtensaeb-softmmu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7A29193A9700512801 /* qemu-xtensaeb-softmmu.xcframework */; };
+		BA6BEB5829193B4600F6AF86 /* qemu-xtensaeb-softmmu.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7A29193A9700512801 /* qemu-xtensaeb-softmmu.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB5929193B4600F6AF86 /* spice-client-glib-2.0.8.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9029193A9A00512801 /* spice-client-glib-2.0.8.xcframework */; };
+		BA6BEB5A29193B4600F6AF86 /* spice-client-glib-2.0.8.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9029193A9A00512801 /* spice-client-glib-2.0.8.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB5B29193B4600F6AF86 /* spice-server.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6D29193A9500512801 /* spice-server.1.xcframework */; };
+		BA6BEB5C29193B4600F6AF86 /* spice-server.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6D29193A9500512801 /* spice-server.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB5D29193B4600F6AF86 /* ssl.1.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6F29193A9500512801 /* ssl.1.1.xcframework */; };
+		BA6BEB5E29193B4600F6AF86 /* ssl.1.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E6F29193A9500512801 /* ssl.1.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB5F29193B4600F6AF86 /* textstyle.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7C29193A9700512801 /* textstyle.0.xcframework */; };
+		BA6BEB6029193B4600F6AF86 /* textstyle.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E7C29193A9700512801 /* textstyle.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB6129193B4600F6AF86 /* turbojpeg.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA729193A9E00512801 /* turbojpeg.0.xcframework */; };
+		BA6BEB6229193B4600F6AF86 /* turbojpeg.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EA729193A9E00512801 /* turbojpeg.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB6329193B4600F6AF86 /* usb-1.0.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8E29193A9A00512801 /* usb-1.0.0.xcframework */; };
+		BA6BEB6429193B4600F6AF86 /* usb-1.0.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8E29193A9A00512801 /* usb-1.0.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB6529193B4600F6AF86 /* usbredirhost.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8529193A9900512801 /* usbredirhost.1.xcframework */; };
+		BA6BEB6629193B4600F6AF86 /* usbredirhost.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8529193A9900512801 /* usbredirhost.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB6729193B4700F6AF86 /* usbredirparser.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9F29193A9D00512801 /* usbredirparser.1.xcframework */; };
+		BA6BEB6829193B4700F6AF86 /* usbredirparser.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9F29193A9D00512801 /* usbredirparser.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB6929193B4700F6AF86 /* virglrenderer.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9429193A9B00512801 /* virglrenderer.1.xcframework */; };
+		BA6BEB6A29193B4700F6AF86 /* virglrenderer.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9429193A9B00512801 /* virglrenderer.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6BEB6B29193B4700F6AF86 /* zstd.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAE29193A9F00512801 /* zstd.1.xcframework */; };
+		BA6BEB6C29193B4700F6AF86 /* zstd.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAE29193A9F00512801 /* zstd.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA8F49292916A84300A7CC2A /* iDEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49282916A84300A7CC2A /* iDEApp.swift */; };
 		BA8F492B2916A84300A7CC2A /* MainEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */; };
 		BA8F492D2916A84300A7CC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8F492C2916A84300A7CC2A /* Assets.xcassets */; };
@@ -33,94 +203,106 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BA6BEB6D29193B4700F6AF86 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA6BEB5229193B4600F6AF86 /* qemu-tricore-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB6829193B4700F6AF86 /* usbredirparser.1.xcframework in Embed Frameworks */,
+				BA6BEB4229193B4600F6AF86 /* qemu-riscv32-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB4C29193B4600F6AF86 /* qemu-sh4eb-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB5029193B4600F6AF86 /* qemu-sparc64-softmmu.xcframework in Embed Frameworks */,
+				BA6BEAFC29193B4500F6AF86 /* gstriff-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEADA29193B4400F6AF86 /* GLESv2.xcframework in Embed Frameworks */,
+				BA6BEB4A29193B4600F6AF86 /* qemu-sh4-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB5829193B4600F6AF86 /* qemu-xtensaeb-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB6629193B4600F6AF86 /* usbredirhost.1.xcframework in Embed Frameworks */,
+				BA6BEB2229193B4500F6AF86 /* qemu-cris-softmmu.xcframework in Embed Frameworks */,
+				BA6BEAEC29193B4400F6AF86 /* gstbase-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEAE229193B4400F6AF86 /* gpg-error.0.xcframework in Embed Frameworks */,
+				BA6BEB6029193B4600F6AF86 /* textstyle.0.xcframework in Embed Frameworks */,
+				BA6BEB5629193B4600F6AF86 /* qemu-xtensa-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB1E29193B4500F6AF86 /* qemu-arm-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB6229193B4600F6AF86 /* turbojpeg.0.xcframework in Embed Frameworks */,
+				BA6BEAE629193B4400F6AF86 /* gstallocators-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEAF029193B4400F6AF86 /* gstcontroller-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB0E29193B4500F6AF86 /* jpeg.62.xcframework in Embed Frameworks */,
+				BA6BEAD029193B4400F6AF86 /* gcrypt.20.xcframework in Embed Frameworks */,
+				BA6BEAEE29193B4400F6AF86 /* gstcheck-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEAE429193B4400F6AF86 /* graphene-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB0A29193B4500F6AF86 /* iconv.2.xcframework in Embed Frameworks */,
+				BA6BEAF629193B4400F6AF86 /* gstnet-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEAF829193B4400F6AF86 /* gstpbutils-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEAE829193B4400F6AF86 /* gstapp-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEACE29193B4400F6AF86 /* ffi.7.xcframework in Embed Frameworks */,
+				BA6BEAC829193B4400F6AF86 /* crypto.1.1.xcframework in Embed Frameworks */,
+				BA6BEB0429193B4500F6AF86 /* gsttag-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB0829193B4500F6AF86 /* gthread-2.0.0.xcframework in Embed Frameworks */,
+				BA6BEB1829193B4500F6AF86 /* png16.16.xcframework in Embed Frameworks */,
+				BA6BEB3E29193B4600F6AF86 /* qemu-ppc-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB3629193B4500F6AF86 /* qemu-mips64el-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB0C29193B4500F6AF86 /* intl.8.xcframework in Embed Frameworks */,
+				BA6BEB3429193B4500F6AF86 /* qemu-mips64-softmmu.xcframework in Embed Frameworks */,
+				BA6BEADE29193B4400F6AF86 /* gmodule-2.0.0.xcframework in Embed Frameworks */,
+				BA6BEB4429193B4600F6AF86 /* qemu-riscv64-softmmu.xcframework in Embed Frameworks */,
+				BA6BEAFE29193B4500F6AF86 /* gstrtp-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB1A29193B4500F6AF86 /* qemu-aarch64-softmmu.xcframework in Embed Frameworks */,
+				BA6BEAF429193B4400F6AF86 /* gstgl-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB2029193B4500F6AF86 /* qemu-avr-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB2829193B4500F6AF86 /* qemu-img.xcframework in Embed Frameworks */,
+				BA6BEB6429193B4600F6AF86 /* usb-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB2C29193B4500F6AF86 /* qemu-m68k-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB1229193B4500F6AF86 /* opus.0.xcframework in Embed Frameworks */,
+				BA6BEB4829193B4600F6AF86 /* qemu-s390x-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB6C29193B4700F6AF86 /* zstd.1.xcframework in Embed Frameworks */,
+				BA6BEAD629193B4400F6AF86 /* gettextsrc-0.21.xcframework in Embed Frameworks */,
+				BA6BEB4E29193B4600F6AF86 /* qemu-sparc-softmmu.xcframework in Embed Frameworks */,
+				BA6BEAE029193B4400F6AF86 /* gobject-2.0.0.xcframework in Embed Frameworks */,
+				BA6BEACC29193B4400F6AF86 /* epoxy.0.xcframework in Embed Frameworks */,
+				BA6BEB2629193B4500F6AF86 /* qemu-i386-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB1429193B4500F6AF86 /* phodav-2.0.0.xcframework in Embed Frameworks */,
+				BA6BEB3A29193B4600F6AF86 /* qemu-nios2-softmmu.xcframework in Embed Frameworks */,
+				BA6BEAD229193B4400F6AF86 /* gettextlib-0.21.xcframework in Embed Frameworks */,
+				BA6BEAD829193B4400F6AF86 /* gio-2.0.0.xcframework in Embed Frameworks */,
+				BA6BEB3829193B4500F6AF86 /* qemu-mipsel-softmmu.xcframework in Embed Frameworks */,
+				BA6BEAC429193B4400F6AF86 /* asprintf.0.xcframework in Embed Frameworks */,
+				BA6BEB3C29193B4600F6AF86 /* qemu-or1k-softmmu.xcframework in Embed Frameworks */,
+				BA6BEACA29193B4400F6AF86 /* EGL.xcframework in Embed Frameworks */,
+				BA6BEB4629193B4600F6AF86 /* qemu-rx-softmmu.xcframework in Embed Frameworks */,
+				BA6BEAFA29193B4500F6AF86 /* gstreamer-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEAD429193B4400F6AF86 /* gettextpo.0.xcframework in Embed Frameworks */,
+				BA6BEB1C29193B4500F6AF86 /* qemu-alpha-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB5429193B4600F6AF86 /* qemu-x86_64-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB3229193B4500F6AF86 /* qemu-mips-softmmu.xcframework in Embed Frameworks */,
+				BA6BEAC629193B4400F6AF86 /* charset.1.xcframework in Embed Frameworks */,
+				BA6BEADC29193B4400F6AF86 /* glib-2.0.0.xcframework in Embed Frameworks */,
+				BA6BEB6A29193B4700F6AF86 /* virglrenderer.1.xcframework in Embed Frameworks */,
+				BA6BEB1029193B4500F6AF86 /* json-glib-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEAEA29193B4400F6AF86 /* gstaudio-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB0029193B4500F6AF86 /* gstrtsp-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB2E29193B4500F6AF86 /* qemu-microblaze-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB4029193B4600F6AF86 /* qemu-ppc64-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB5E29193B4600F6AF86 /* ssl.1.1.xcframework in Embed Frameworks */,
+				BA6BEB0229193B4500F6AF86 /* gstsdp-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB3029193B4500F6AF86 /* qemu-microblazeel-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB2A29193B4500F6AF86 /* qemu-loongarch64-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB2429193B4500F6AF86 /* qemu-hppa-softmmu.xcframework in Embed Frameworks */,
+				BA6BEB5C29193B4600F6AF86 /* spice-server.1.xcframework in Embed Frameworks */,
+				BA6BEB5A29193B4600F6AF86 /* spice-client-glib-2.0.8.xcframework in Embed Frameworks */,
+				BA6BEB0629193B4500F6AF86 /* gstvideo-1.0.0.xcframework in Embed Frameworks */,
+				BA6BEB1629193B4500F6AF86 /* pixman-1.0.xcframework in Embed Frameworks */,
+				BA6BEAF229193B4400F6AF86 /* gstfft-1.0.0.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		BA3C889C2916AA1700F9DBFA /* iDE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iDE.entitlements; sourceTree = "<group>"; };
-		BA3C889E2916AC2700F9DBFA /* phodav-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "phodav-2.0.0.framework"; path = "QEMUFrameworks/phodav-2.0.0.framework"; sourceTree = "<group>"; };
-		BA3C889F2916AC2700F9DBFA /* gstgl-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstgl-1.0.0.framework"; path = "QEMUFrameworks/gstgl-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88A02916AC2700F9DBFA /* spice-client-glib-2.0.8.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "spice-client-glib-2.0.8.framework"; path = "QEMUFrameworks/spice-client-glib-2.0.8.framework"; sourceTree = "<group>"; };
-		BA3C88A12916AC2700F9DBFA /* gstbase-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstbase-1.0.0.framework"; path = "QEMUFrameworks/gstbase-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88A22916AC2700F9DBFA /* gstsdp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstsdp-1.0.0.framework"; path = "QEMUFrameworks/gstsdp-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88A32916AC2700F9DBFA /* qemu-hppa-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-hppa-softmmu.framework"; path = "QEMUFrameworks/qemu-hppa-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88A42916AC2700F9DBFA /* gstvideo-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstvideo-1.0.0.framework"; path = "QEMUFrameworks/gstvideo-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88A52916AC2700F9DBFA /* crypto.1.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = crypto.1.1.framework; path = QEMUFrameworks/crypto.1.1.framework; sourceTree = "<group>"; };
-		BA3C88A62916AC2800F9DBFA /* gstcontroller-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstcontroller-1.0.0.framework"; path = "QEMUFrameworks/gstcontroller-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88A72916AC2800F9DBFA /* epoxy.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = epoxy.0.framework; path = QEMUFrameworks/epoxy.0.framework; sourceTree = "<group>"; };
-		BA3C88A82916AC2800F9DBFA /* textstyle.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = textstyle.0.framework; path = QEMUFrameworks/textstyle.0.framework; sourceTree = "<group>"; };
-		BA3C88A92916AC2800F9DBFA /* virglrenderer.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = virglrenderer.1.framework; path = QEMUFrameworks/virglrenderer.1.framework; sourceTree = "<group>"; };
-		BA3C88AA2916AC2800F9DBFA /* iconv.2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iconv.2.framework; path = QEMUFrameworks/iconv.2.framework; sourceTree = "<group>"; };
-		BA3C88AB2916AC2800F9DBFA /* qemu-aarch64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-aarch64-softmmu.framework"; path = "QEMUFrameworks/qemu-aarch64-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88AC2916AC2800F9DBFA /* qemu-i386-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-i386-softmmu.framework"; path = "QEMUFrameworks/qemu-i386-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88AD2916AC2900F9DBFA /* gcrypt.20.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gcrypt.20.framework; path = QEMUFrameworks/gcrypt.20.framework; sourceTree = "<group>"; };
-		BA3C88AE2916AC2900F9DBFA /* qemu-img.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-img.framework"; path = "QEMUFrameworks/qemu-img.framework"; sourceTree = "<group>"; };
-		BA3C88AF2916AC2900F9DBFA /* qemu-microblazeel-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-microblazeel-softmmu.framework"; path = "QEMUFrameworks/qemu-microblazeel-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88B02916AC2900F9DBFA /* gstriff-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstriff-1.0.0.framework"; path = "QEMUFrameworks/gstriff-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88B12916AC2900F9DBFA /* qemu-microblaze-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-microblaze-softmmu.framework"; path = "QEMUFrameworks/qemu-microblaze-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88B22916AC2900F9DBFA /* gettextsrc-0.21.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gettextsrc-0.21.framework"; path = "QEMUFrameworks/gettextsrc-0.21.framework"; sourceTree = "<group>"; };
-		BA3C88B32916AC2900F9DBFA /* qemu-mipsel-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-mipsel-softmmu.framework"; path = "QEMUFrameworks/qemu-mipsel-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88B42916AC2A00F9DBFA /* gstnet-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstnet-1.0.0.framework"; path = "QEMUFrameworks/gstnet-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88B52916AC2A00F9DBFA /* glib-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "glib-2.0.0.framework"; path = "QEMUFrameworks/glib-2.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88B62916AC2A00F9DBFA /* qemu-s390x-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-s390x-softmmu.framework"; path = "QEMUFrameworks/qemu-s390x-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88B72916AC2A00F9DBFA /* gstreamer-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstreamer-1.0.0.framework"; path = "QEMUFrameworks/gstreamer-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88B82916AC2A00F9DBFA /* qemu-ppc64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-ppc64-softmmu.framework"; path = "QEMUFrameworks/qemu-ppc64-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88B92916AC2A00F9DBFA /* qemu-sparc64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-sparc64-softmmu.framework"; path = "QEMUFrameworks/qemu-sparc64-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88BA2916AC2A00F9DBFA /* gmodule-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gmodule-2.0.0.framework"; path = "QEMUFrameworks/gmodule-2.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88BB2916AC2B00F9DBFA /* qemu-mips64el-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-mips64el-softmmu.framework"; path = "QEMUFrameworks/qemu-mips64el-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88BC2916AC2B00F9DBFA /* qemu-alpha-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-alpha-softmmu.framework"; path = "QEMUFrameworks/qemu-alpha-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88BD2916AC2B00F9DBFA /* qemu-rx-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-rx-softmmu.framework"; path = "QEMUFrameworks/qemu-rx-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88BE2916AC2B00F9DBFA /* qemu-xtensaeb-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-xtensaeb-softmmu.framework"; path = "QEMUFrameworks/qemu-xtensaeb-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88BF2916AC2B00F9DBFA /* spice-server.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "spice-server.1.framework"; path = "QEMUFrameworks/spice-server.1.framework"; sourceTree = "<group>"; };
-		BA3C88C02916AC2B00F9DBFA /* qemu-sparc-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-sparc-softmmu.framework"; path = "QEMUFrameworks/qemu-sparc-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88C12916AC2B00F9DBFA /* GLESv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLESv2.framework; path = QEMUFrameworks/GLESv2.framework; sourceTree = "<group>"; };
-		BA3C88C22916AC2C00F9DBFA /* pixman-1.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "pixman-1.0.framework"; path = "QEMUFrameworks/pixman-1.0.framework"; sourceTree = "<group>"; };
-		BA3C88C32916AC2C00F9DBFA /* qemu-or1k-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-or1k-softmmu.framework"; path = "QEMUFrameworks/qemu-or1k-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88C42916AC2C00F9DBFA /* graphene-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "graphene-1.0.0.framework"; path = "QEMUFrameworks/graphene-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88C52916AC2C00F9DBFA /* gettextlib-0.21.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gettextlib-0.21.framework"; path = "QEMUFrameworks/gettextlib-0.21.framework"; sourceTree = "<group>"; };
-		BA3C88C62916AC2C00F9DBFA /* qemu-sh4-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-sh4-softmmu.framework"; path = "QEMUFrameworks/qemu-sh4-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88C72916AC2C00F9DBFA /* turbojpeg.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = turbojpeg.0.framework; path = QEMUFrameworks/turbojpeg.0.framework; sourceTree = "<group>"; };
-		BA3C88C82916AC2D00F9DBFA /* qemu-nios2-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-nios2-softmmu.framework"; path = "QEMUFrameworks/qemu-nios2-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88C92916AC2D00F9DBFA /* qemu-arm-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-arm-softmmu.framework"; path = "QEMUFrameworks/qemu-arm-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88CA2916AC2D00F9DBFA /* gstallocators-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstallocators-1.0.0.framework"; path = "QEMUFrameworks/gstallocators-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88CB2916AC2D00F9DBFA /* gstpbutils-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstpbutils-1.0.0.framework"; path = "QEMUFrameworks/gstpbutils-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88CC2916AC2D00F9DBFA /* qemu-m68k-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-m68k-softmmu.framework"; path = "QEMUFrameworks/qemu-m68k-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88CD2916AC2D00F9DBFA /* gstaudio-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstaudio-1.0.0.framework"; path = "QEMUFrameworks/gstaudio-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88CE2916AC2D00F9DBFA /* charset.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = charset.1.framework; path = QEMUFrameworks/charset.1.framework; sourceTree = "<group>"; };
-		BA3C88CF2916AC2D00F9DBFA /* qemu-mips64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-mips64-softmmu.framework"; path = "QEMUFrameworks/qemu-mips64-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88D02916AC2E00F9DBFA /* Hypervisor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hypervisor.framework; path = QEMUFrameworks/Hypervisor.framework; sourceTree = "<group>"; };
-		BA3C88D12916AC2E00F9DBFA /* gthread-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gthread-2.0.0.framework"; path = "QEMUFrameworks/gthread-2.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88D22916AC2E00F9DBFA /* gsttag-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gsttag-1.0.0.framework"; path = "QEMUFrameworks/gsttag-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88D32916AC2E00F9DBFA /* qemu-x86_64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-x86_64-softmmu.framework"; path = "QEMUFrameworks/qemu-x86_64-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88D42916AC2E00F9DBFA /* gettextpo.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gettextpo.0.framework; path = QEMUFrameworks/gettextpo.0.framework; sourceTree = "<group>"; };
-		BA3C88D52916AC2E00F9DBFA /* gstcheck-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstcheck-1.0.0.framework"; path = "QEMUFrameworks/gstcheck-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88D62916AC2F00F9DBFA /* intl.8.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = intl.8.framework; path = QEMUFrameworks/intl.8.framework; sourceTree = "<group>"; };
-		BA3C88D72916AC2F00F9DBFA /* EGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EGL.framework; path = QEMUFrameworks/EGL.framework; sourceTree = "<group>"; };
-		BA3C88D82916AC2F00F9DBFA /* png16.16.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = png16.16.framework; path = QEMUFrameworks/png16.16.framework; sourceTree = "<group>"; };
-		BA3C88D92916AC2F00F9DBFA /* ssl.1.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ssl.1.1.framework; path = QEMUFrameworks/ssl.1.1.framework; sourceTree = "<group>"; };
-		BA3C88DA2916AC2F00F9DBFA /* gstfft-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstfft-1.0.0.framework"; path = "QEMUFrameworks/gstfft-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88DB2916AC2F00F9DBFA /* qemu-riscv32-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-riscv32-softmmu.framework"; path = "QEMUFrameworks/qemu-riscv32-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88DC2916AC3000F9DBFA /* qemu-riscv64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-riscv64-softmmu.framework"; path = "QEMUFrameworks/qemu-riscv64-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88DD2916AC3000F9DBFA /* opus.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opus.0.framework; path = QEMUFrameworks/opus.0.framework; sourceTree = "<group>"; };
-		BA3C88DE2916AC3000F9DBFA /* qemu-tricore-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-tricore-softmmu.framework"; path = "QEMUFrameworks/qemu-tricore-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88DF2916AC3000F9DBFA /* gobject-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gobject-2.0.0.framework"; path = "QEMUFrameworks/gobject-2.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88E02916AC3000F9DBFA /* qemu-sh4eb-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-sh4eb-softmmu.framework"; path = "QEMUFrameworks/qemu-sh4eb-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88E12916AC3000F9DBFA /* zstd.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = zstd.1.framework; path = QEMUFrameworks/zstd.1.framework; sourceTree = "<group>"; };
-		BA3C88E22916AC3000F9DBFA /* gstapp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstapp-1.0.0.framework"; path = "QEMUFrameworks/gstapp-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88E32916AC3100F9DBFA /* usbredirhost.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = usbredirhost.1.framework; path = QEMUFrameworks/usbredirhost.1.framework; sourceTree = "<group>"; };
-		BA3C88E42916AC3100F9DBFA /* json-glib-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "json-glib-1.0.0.framework"; path = "QEMUFrameworks/json-glib-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88E52916AC3100F9DBFA /* asprintf.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = asprintf.0.framework; path = QEMUFrameworks/asprintf.0.framework; sourceTree = "<group>"; };
-		BA3C88E62916AC3100F9DBFA /* gstrtp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstrtp-1.0.0.framework"; path = "QEMUFrameworks/gstrtp-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88E72916AC3100F9DBFA /* qemu-cris-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-cris-softmmu.framework"; path = "QEMUFrameworks/qemu-cris-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88E82916AC3100F9DBFA /* jpeg.62.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jpeg.62.framework; path = QEMUFrameworks/jpeg.62.framework; sourceTree = "<group>"; };
-		BA3C88E92916AC3100F9DBFA /* gpg-error.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gpg-error.0.framework"; path = "QEMUFrameworks/gpg-error.0.framework"; sourceTree = "<group>"; };
-		BA3C88EA2916AC3200F9DBFA /* qemu-avr-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-avr-softmmu.framework"; path = "QEMUFrameworks/qemu-avr-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88EB2916AC3200F9DBFA /* ffi.7.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ffi.7.framework; path = QEMUFrameworks/ffi.7.framework; sourceTree = "<group>"; };
-		BA3C88EC2916AC3200F9DBFA /* qemu-xtensa-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-xtensa-softmmu.framework"; path = "QEMUFrameworks/qemu-xtensa-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88ED2916AC3200F9DBFA /* usb-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "usb-1.0.0.framework"; path = "QEMUFrameworks/usb-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88EE2916AC3200F9DBFA /* qemu-mips-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-mips-softmmu.framework"; path = "QEMUFrameworks/qemu-mips-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88EF2916AC3200F9DBFA /* qemu-ppc-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-ppc-softmmu.framework"; path = "QEMUFrameworks/qemu-ppc-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88F02916AC3200F9DBFA /* gio-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gio-2.0.0.framework"; path = "QEMUFrameworks/gio-2.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88F12916AC3300F9DBFA /* gstrtsp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstrtsp-1.0.0.framework"; path = "QEMUFrameworks/gstrtsp-1.0.0.framework"; sourceTree = "<group>"; };
-		BA3C88F22916AC3300F9DBFA /* qemu-loongarch64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-loongarch64-softmmu.framework"; path = "QEMUFrameworks/qemu-loongarch64-softmmu.framework"; sourceTree = "<group>"; };
-		BA3C88F32916AC3300F9DBFA /* usbredirparser.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = usbredirparser.1.framework; path = QEMUFrameworks/usbredirparser.1.framework; sourceTree = "<group>"; };
 		BA8F49252916A84300A7CC2A /* iDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8F49282916A84300A7CC2A /* iDEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDEApp.swift; sourceTree = "<group>"; };
 		BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
@@ -131,6 +313,91 @@
 		BA8F493F2916A84400A7CC2A /* iDEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8F49432916A84400A7CC2A /* iDEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDEUITests.swift; sourceTree = "<group>"; };
 		BA8F49452916A84400A7CC2A /* iDEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA959E5A29193A9300512801 /* qemu-sparc64-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-sparc64-softmmu.xcframework"; path = "QEMUFrameworks/qemu-sparc64-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E5B29193A9300512801 /* epoxy.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = epoxy.0.xcframework; path = QEMUFrameworks/epoxy.0.xcframework; sourceTree = "<group>"; };
+		BA959E5C29193A9300512801 /* qemu-alpha-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-alpha-softmmu.xcframework"; path = "QEMUFrameworks/qemu-alpha-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E5D29193A9300512801 /* qemu-loongarch64-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-loongarch64-softmmu.xcframework"; path = "QEMUFrameworks/qemu-loongarch64-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E5E29193A9300512801 /* qemu-m68k-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-m68k-softmmu.xcframework"; path = "QEMUFrameworks/qemu-m68k-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E5F29193A9300512801 /* gsttag-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gsttag-1.0.0.xcframework"; path = "QEMUFrameworks/gsttag-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E6029193A9300512801 /* qemu-microblazeel-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-microblazeel-softmmu.xcframework"; path = "QEMUFrameworks/qemu-microblazeel-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E6129193A9300512801 /* qemu-riscv32-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-riscv32-softmmu.xcframework"; path = "QEMUFrameworks/qemu-riscv32-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E6229193A9400512801 /* glib-2.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "glib-2.0.0.xcframework"; path = "QEMUFrameworks/glib-2.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E6329193A9400512801 /* gthread-2.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gthread-2.0.0.xcframework"; path = "QEMUFrameworks/gthread-2.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E6429193A9400512801 /* gettextpo.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = gettextpo.0.xcframework; path = QEMUFrameworks/gettextpo.0.xcframework; sourceTree = "<group>"; };
+		BA959E6529193A9400512801 /* qemu-microblaze-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-microblaze-softmmu.xcframework"; path = "QEMUFrameworks/qemu-microblaze-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E6629193A9400512801 /* qemu-riscv64-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-riscv64-softmmu.xcframework"; path = "QEMUFrameworks/qemu-riscv64-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E6729193A9400512801 /* gio-2.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gio-2.0.0.xcframework"; path = "QEMUFrameworks/gio-2.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E6829193A9400512801 /* crypto.1.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = crypto.1.1.xcframework; path = QEMUFrameworks/crypto.1.1.xcframework; sourceTree = "<group>"; };
+		BA959E6929193A9500512801 /* opus.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = opus.0.xcframework; path = QEMUFrameworks/opus.0.xcframework; sourceTree = "<group>"; };
+		BA959E6A29193A9500512801 /* qemu-arm-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-arm-softmmu.xcframework"; path = "QEMUFrameworks/qemu-arm-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E6B29193A9500512801 /* qemu-nios2-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-nios2-softmmu.xcframework"; path = "QEMUFrameworks/qemu-nios2-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E6C29193A9500512801 /* qemu-xtensa-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-xtensa-softmmu.xcframework"; path = "QEMUFrameworks/qemu-xtensa-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E6D29193A9500512801 /* spice-server.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "spice-server.1.xcframework"; path = "QEMUFrameworks/spice-server.1.xcframework"; sourceTree = "<group>"; };
+		BA959E6E29193A9500512801 /* gstcheck-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstcheck-1.0.0.xcframework"; path = "QEMUFrameworks/gstcheck-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E6F29193A9500512801 /* ssl.1.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ssl.1.1.xcframework; path = QEMUFrameworks/ssl.1.1.xcframework; sourceTree = "<group>"; };
+		BA959E7029193A9500512801 /* qemu-tricore-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-tricore-softmmu.xcframework"; path = "QEMUFrameworks/qemu-tricore-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E7129193A9600512801 /* gettextlib-0.21.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gettextlib-0.21.xcframework"; path = "QEMUFrameworks/gettextlib-0.21.xcframework"; sourceTree = "<group>"; };
+		BA959E7229193A9600512801 /* gettextsrc-0.21.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gettextsrc-0.21.xcframework"; path = "QEMUFrameworks/gettextsrc-0.21.xcframework"; sourceTree = "<group>"; };
+		BA959E7329193A9600512801 /* pixman-1.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "pixman-1.0.xcframework"; path = "QEMUFrameworks/pixman-1.0.xcframework"; sourceTree = "<group>"; };
+		BA959E7429193A9600512801 /* gstfft-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstfft-1.0.0.xcframework"; path = "QEMUFrameworks/gstfft-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E7529193A9600512801 /* ffi.7.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ffi.7.xcframework; path = QEMUFrameworks/ffi.7.xcframework; sourceTree = "<group>"; };
+		BA959E7629193A9600512801 /* qemu-sh4eb-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-sh4eb-softmmu.xcframework"; path = "QEMUFrameworks/qemu-sh4eb-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E7729193A9700512801 /* qemu-x86_64-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-x86_64-softmmu.xcframework"; path = "QEMUFrameworks/qemu-x86_64-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E7829193A9700512801 /* qemu-aarch64-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-aarch64-softmmu.xcframework"; path = "QEMUFrameworks/qemu-aarch64-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E7929193A9700512801 /* gstbase-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstbase-1.0.0.xcframework"; path = "QEMUFrameworks/gstbase-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E7A29193A9700512801 /* qemu-xtensaeb-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-xtensaeb-softmmu.xcframework"; path = "QEMUFrameworks/qemu-xtensaeb-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E7B29193A9700512801 /* qemu-mips64el-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-mips64el-softmmu.xcframework"; path = "QEMUFrameworks/qemu-mips64el-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E7C29193A9700512801 /* textstyle.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = textstyle.0.xcframework; path = QEMUFrameworks/textstyle.0.xcframework; sourceTree = "<group>"; };
+		BA959E7D29193A9700512801 /* qemu-mips-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-mips-softmmu.xcframework"; path = "QEMUFrameworks/qemu-mips-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E7E29193A9800512801 /* gobject-2.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gobject-2.0.0.xcframework"; path = "QEMUFrameworks/gobject-2.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E7F29193A9800512801 /* gmodule-2.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gmodule-2.0.0.xcframework"; path = "QEMUFrameworks/gmodule-2.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E8029193A9800512801 /* gstpbutils-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstpbutils-1.0.0.xcframework"; path = "QEMUFrameworks/gstpbutils-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E8129193A9800512801 /* qemu-or1k-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-or1k-softmmu.xcframework"; path = "QEMUFrameworks/qemu-or1k-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E8229193A9800512801 /* qemu-sparc-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-sparc-softmmu.xcframework"; path = "QEMUFrameworks/qemu-sparc-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E8329193A9800512801 /* json-glib-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "json-glib-1.0.0.xcframework"; path = "QEMUFrameworks/json-glib-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E8429193A9900512801 /* gstaudio-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstaudio-1.0.0.xcframework"; path = "QEMUFrameworks/gstaudio-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E8529193A9900512801 /* usbredirhost.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = usbredirhost.1.xcframework; path = QEMUFrameworks/usbredirhost.1.xcframework; sourceTree = "<group>"; };
+		BA959E8629193A9900512801 /* qemu-hppa-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-hppa-softmmu.xcframework"; path = "QEMUFrameworks/qemu-hppa-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E8729193A9900512801 /* phodav-2.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "phodav-2.0.0.xcframework"; path = "QEMUFrameworks/phodav-2.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E8829193A9900512801 /* EGL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = EGL.xcframework; path = QEMUFrameworks/EGL.xcframework; sourceTree = "<group>"; };
+		BA959E8929193A9900512801 /* qemu-s390x-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-s390x-softmmu.xcframework"; path = "QEMUFrameworks/qemu-s390x-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E8A29193A9A00512801 /* gpg-error.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gpg-error.0.xcframework"; path = "QEMUFrameworks/gpg-error.0.xcframework"; sourceTree = "<group>"; };
+		BA959E8B29193A9A00512801 /* gstvideo-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstvideo-1.0.0.xcframework"; path = "QEMUFrameworks/gstvideo-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E8C29193A9A00512801 /* charset.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = charset.1.xcframework; path = QEMUFrameworks/charset.1.xcframework; sourceTree = "<group>"; };
+		BA959E8D29193A9A00512801 /* qemu-i386-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-i386-softmmu.xcframework"; path = "QEMUFrameworks/qemu-i386-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E8E29193A9A00512801 /* usb-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "usb-1.0.0.xcframework"; path = "QEMUFrameworks/usb-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E8F29193A9A00512801 /* qemu-img.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-img.xcframework"; path = "QEMUFrameworks/qemu-img.xcframework"; sourceTree = "<group>"; };
+		BA959E9029193A9A00512801 /* spice-client-glib-2.0.8.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "spice-client-glib-2.0.8.xcframework"; path = "QEMUFrameworks/spice-client-glib-2.0.8.xcframework"; sourceTree = "<group>"; };
+		BA959E9129193A9B00512801 /* asprintf.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = asprintf.0.xcframework; path = QEMUFrameworks/asprintf.0.xcframework; sourceTree = "<group>"; };
+		BA959E9229193A9B00512801 /* qemu-rx-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-rx-softmmu.xcframework"; path = "QEMUFrameworks/qemu-rx-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E9329193A9B00512801 /* gstnet-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstnet-1.0.0.xcframework"; path = "QEMUFrameworks/gstnet-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E9429193A9B00512801 /* virglrenderer.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = virglrenderer.1.xcframework; path = QEMUFrameworks/virglrenderer.1.xcframework; sourceTree = "<group>"; };
+		BA959E9529193A9B00512801 /* jpeg.62.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = jpeg.62.xcframework; path = QEMUFrameworks/jpeg.62.xcframework; sourceTree = "<group>"; };
+		BA959E9629193A9B00512801 /* qemu-sh4-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-sh4-softmmu.xcframework"; path = "QEMUFrameworks/qemu-sh4-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E9729193A9C00512801 /* qemu-ppc64-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-ppc64-softmmu.xcframework"; path = "QEMUFrameworks/qemu-ppc64-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959E9829193A9C00512801 /* graphene-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "graphene-1.0.0.xcframework"; path = "QEMUFrameworks/graphene-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E9929193A9C00512801 /* gstapp-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstapp-1.0.0.xcframework"; path = "QEMUFrameworks/gstapp-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E9A29193A9C00512801 /* gstrtsp-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstrtsp-1.0.0.xcframework"; path = "QEMUFrameworks/gstrtsp-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E9B29193A9C00512801 /* gstriff-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstriff-1.0.0.xcframework"; path = "QEMUFrameworks/gstriff-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E9C29193A9C00512801 /* gstreamer-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstreamer-1.0.0.xcframework"; path = "QEMUFrameworks/gstreamer-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E9D29193A9D00512801 /* intl.8.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = intl.8.xcframework; path = QEMUFrameworks/intl.8.xcframework; sourceTree = "<group>"; };
+		BA959E9E29193A9D00512801 /* gstallocators-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstallocators-1.0.0.xcframework"; path = "QEMUFrameworks/gstallocators-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959E9F29193A9D00512801 /* usbredirparser.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = usbredirparser.1.xcframework; path = QEMUFrameworks/usbredirparser.1.xcframework; sourceTree = "<group>"; };
+		BA959EA029193A9D00512801 /* gstsdp-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstsdp-1.0.0.xcframework"; path = "QEMUFrameworks/gstsdp-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959EA129193A9D00512801 /* gcrypt.20.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = gcrypt.20.xcframework; path = QEMUFrameworks/gcrypt.20.xcframework; sourceTree = "<group>"; };
+		BA959EA229193A9D00512801 /* qemu-cris-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-cris-softmmu.xcframework"; path = "QEMUFrameworks/qemu-cris-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959EA329193A9D00512801 /* qemu-mipsel-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-mipsel-softmmu.xcframework"; path = "QEMUFrameworks/qemu-mipsel-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959EA429193A9E00512801 /* qemu-ppc-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-ppc-softmmu.xcframework"; path = "QEMUFrameworks/qemu-ppc-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959EA529193A9E00512801 /* GLESv2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GLESv2.xcframework; path = QEMUFrameworks/GLESv2.xcframework; sourceTree = "<group>"; };
+		BA959EA629193A9E00512801 /* qemu-mips64-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-mips64-softmmu.xcframework"; path = "QEMUFrameworks/qemu-mips64-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959EA729193A9E00512801 /* turbojpeg.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = turbojpeg.0.xcframework; path = QEMUFrameworks/turbojpeg.0.xcframework; sourceTree = "<group>"; };
+		BA959EA829193A9E00512801 /* qemu-avr-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-avr-softmmu.xcframework"; path = "QEMUFrameworks/qemu-avr-softmmu.xcframework"; sourceTree = "<group>"; };
+		BA959EA929193A9F00512801 /* png16.16.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = png16.16.xcframework; path = QEMUFrameworks/png16.16.xcframework; sourceTree = "<group>"; };
+		BA959EAA29193A9F00512801 /* iconv.2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iconv.2.xcframework; path = QEMUFrameworks/iconv.2.xcframework; sourceTree = "<group>"; };
+		BA959EAB29193A9F00512801 /* gstgl-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstgl-1.0.0.xcframework"; path = "QEMUFrameworks/gstgl-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959EAC29193A9F00512801 /* gstcontroller-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstcontroller-1.0.0.xcframework"; path = "QEMUFrameworks/gstcontroller-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959EAD29193A9F00512801 /* gstrtp-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstrtp-1.0.0.xcframework"; path = "QEMUFrameworks/gstrtp-1.0.0.xcframework"; sourceTree = "<group>"; };
+		BA959EAE29193A9F00512801 /* zstd.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = zstd.1.xcframework; path = QEMUFrameworks/zstd.1.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +405,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6BEB5129193B4600F6AF86 /* qemu-tricore-softmmu.xcframework in Frameworks */,
+				BA6BEB6729193B4700F6AF86 /* usbredirparser.1.xcframework in Frameworks */,
+				BA6BEB4129193B4600F6AF86 /* qemu-riscv32-softmmu.xcframework in Frameworks */,
+				BA6BEB4B29193B4600F6AF86 /* qemu-sh4eb-softmmu.xcframework in Frameworks */,
+				BA6BEB4F29193B4600F6AF86 /* qemu-sparc64-softmmu.xcframework in Frameworks */,
+				BA6BEAFB29193B4500F6AF86 /* gstriff-1.0.0.xcframework in Frameworks */,
+				BA6BEAD929193B4400F6AF86 /* GLESv2.xcframework in Frameworks */,
+				BA6BEB4929193B4600F6AF86 /* qemu-sh4-softmmu.xcframework in Frameworks */,
+				BA6BEB5729193B4600F6AF86 /* qemu-xtensaeb-softmmu.xcframework in Frameworks */,
+				BA6BEB6529193B4600F6AF86 /* usbredirhost.1.xcframework in Frameworks */,
+				BA6BEB2129193B4500F6AF86 /* qemu-cris-softmmu.xcframework in Frameworks */,
+				BA6BEAEB29193B4400F6AF86 /* gstbase-1.0.0.xcframework in Frameworks */,
+				BA6BEAE129193B4400F6AF86 /* gpg-error.0.xcframework in Frameworks */,
+				BA6BEB5F29193B4600F6AF86 /* textstyle.0.xcframework in Frameworks */,
+				BA6BEB5529193B4600F6AF86 /* qemu-xtensa-softmmu.xcframework in Frameworks */,
+				BA6BEB1D29193B4500F6AF86 /* qemu-arm-softmmu.xcframework in Frameworks */,
+				BA6BEB6129193B4600F6AF86 /* turbojpeg.0.xcframework in Frameworks */,
+				BA6BEAE529193B4400F6AF86 /* gstallocators-1.0.0.xcframework in Frameworks */,
+				BA6BEAEF29193B4400F6AF86 /* gstcontroller-1.0.0.xcframework in Frameworks */,
+				BA6BEB0D29193B4500F6AF86 /* jpeg.62.xcframework in Frameworks */,
+				BA6BEACF29193B4400F6AF86 /* gcrypt.20.xcframework in Frameworks */,
+				BA6BEAED29193B4400F6AF86 /* gstcheck-1.0.0.xcframework in Frameworks */,
+				BA6BEAE329193B4400F6AF86 /* graphene-1.0.0.xcframework in Frameworks */,
+				BA6BEB0929193B4500F6AF86 /* iconv.2.xcframework in Frameworks */,
+				BA6BEAF529193B4400F6AF86 /* gstnet-1.0.0.xcframework in Frameworks */,
+				BA6BEAF729193B4400F6AF86 /* gstpbutils-1.0.0.xcframework in Frameworks */,
+				BA6BEAE729193B4400F6AF86 /* gstapp-1.0.0.xcframework in Frameworks */,
+				BA6BEACD29193B4400F6AF86 /* ffi.7.xcframework in Frameworks */,
+				BA6BEAC729193B4400F6AF86 /* crypto.1.1.xcframework in Frameworks */,
+				BA6BEB0329193B4500F6AF86 /* gsttag-1.0.0.xcframework in Frameworks */,
+				BA6BEB0729193B4500F6AF86 /* gthread-2.0.0.xcframework in Frameworks */,
+				BA6BEB1729193B4500F6AF86 /* png16.16.xcframework in Frameworks */,
+				BA6BEB3D29193B4600F6AF86 /* qemu-ppc-softmmu.xcframework in Frameworks */,
+				BA6BEB3529193B4500F6AF86 /* qemu-mips64el-softmmu.xcframework in Frameworks */,
+				BA6BEB0B29193B4500F6AF86 /* intl.8.xcframework in Frameworks */,
+				BA6BEB3329193B4500F6AF86 /* qemu-mips64-softmmu.xcframework in Frameworks */,
+				BA6BEADD29193B4400F6AF86 /* gmodule-2.0.0.xcframework in Frameworks */,
+				BA6BEB4329193B4600F6AF86 /* qemu-riscv64-softmmu.xcframework in Frameworks */,
+				BA6BEAFD29193B4500F6AF86 /* gstrtp-1.0.0.xcframework in Frameworks */,
+				BA6BEB1929193B4500F6AF86 /* qemu-aarch64-softmmu.xcframework in Frameworks */,
+				BA6BEAF329193B4400F6AF86 /* gstgl-1.0.0.xcframework in Frameworks */,
+				BA6BEB1F29193B4500F6AF86 /* qemu-avr-softmmu.xcframework in Frameworks */,
+				BA6BEB2729193B4500F6AF86 /* qemu-img.xcframework in Frameworks */,
+				BA6BEB6329193B4600F6AF86 /* usb-1.0.0.xcframework in Frameworks */,
+				BA6BEB2B29193B4500F6AF86 /* qemu-m68k-softmmu.xcframework in Frameworks */,
+				BA6BEB1129193B4500F6AF86 /* opus.0.xcframework in Frameworks */,
+				BA6BEB4729193B4600F6AF86 /* qemu-s390x-softmmu.xcframework in Frameworks */,
+				BA6BEB6B29193B4700F6AF86 /* zstd.1.xcframework in Frameworks */,
+				BA6BEAD529193B4400F6AF86 /* gettextsrc-0.21.xcframework in Frameworks */,
+				BA6BEB4D29193B4600F6AF86 /* qemu-sparc-softmmu.xcframework in Frameworks */,
+				BA6BEADF29193B4400F6AF86 /* gobject-2.0.0.xcframework in Frameworks */,
+				BA6BEACB29193B4400F6AF86 /* epoxy.0.xcframework in Frameworks */,
+				BA6BEB2529193B4500F6AF86 /* qemu-i386-softmmu.xcframework in Frameworks */,
+				BA6BEB1329193B4500F6AF86 /* phodav-2.0.0.xcframework in Frameworks */,
+				BA6BEB3929193B4500F6AF86 /* qemu-nios2-softmmu.xcframework in Frameworks */,
+				BA6BEAD129193B4400F6AF86 /* gettextlib-0.21.xcframework in Frameworks */,
+				BA6BEAD729193B4400F6AF86 /* gio-2.0.0.xcframework in Frameworks */,
+				BA6BEB3729193B4500F6AF86 /* qemu-mipsel-softmmu.xcframework in Frameworks */,
+				BA6BEAC329193B4400F6AF86 /* asprintf.0.xcframework in Frameworks */,
+				BA6BEB3B29193B4600F6AF86 /* qemu-or1k-softmmu.xcframework in Frameworks */,
+				BA6BEAC929193B4400F6AF86 /* EGL.xcframework in Frameworks */,
+				BA6BEB4529193B4600F6AF86 /* qemu-rx-softmmu.xcframework in Frameworks */,
+				BA6BEAF929193B4500F6AF86 /* gstreamer-1.0.0.xcframework in Frameworks */,
+				BA6BEAD329193B4400F6AF86 /* gettextpo.0.xcframework in Frameworks */,
+				BA6BEB1B29193B4500F6AF86 /* qemu-alpha-softmmu.xcframework in Frameworks */,
+				BA6BEB5329193B4600F6AF86 /* qemu-x86_64-softmmu.xcframework in Frameworks */,
+				BA6BEB3129193B4500F6AF86 /* qemu-mips-softmmu.xcframework in Frameworks */,
+				BA6BEAC529193B4400F6AF86 /* charset.1.xcframework in Frameworks */,
+				BA6BEADB29193B4400F6AF86 /* glib-2.0.0.xcframework in Frameworks */,
+				BA6BEB6929193B4700F6AF86 /* virglrenderer.1.xcframework in Frameworks */,
+				BA6BEB0F29193B4500F6AF86 /* json-glib-1.0.0.xcframework in Frameworks */,
+				BA6BEAE929193B4400F6AF86 /* gstaudio-1.0.0.xcframework in Frameworks */,
+				BA6BEAFF29193B4500F6AF86 /* gstrtsp-1.0.0.xcframework in Frameworks */,
+				BA6BEB2D29193B4500F6AF86 /* qemu-microblaze-softmmu.xcframework in Frameworks */,
+				BA6BEB3F29193B4600F6AF86 /* qemu-ppc64-softmmu.xcframework in Frameworks */,
+				BA6BEB5D29193B4600F6AF86 /* ssl.1.1.xcframework in Frameworks */,
+				BA6BEB0129193B4500F6AF86 /* gstsdp-1.0.0.xcframework in Frameworks */,
+				BA6BEB2F29193B4500F6AF86 /* qemu-microblazeel-softmmu.xcframework in Frameworks */,
+				BA6BEB2929193B4500F6AF86 /* qemu-loongarch64-softmmu.xcframework in Frameworks */,
+				BA6BEB2329193B4500F6AF86 /* qemu-hppa-softmmu.xcframework in Frameworks */,
+				BA6BEB5B29193B4600F6AF86 /* spice-server.1.xcframework in Frameworks */,
+				BA6BEB5929193B4600F6AF86 /* spice-client-glib-2.0.8.xcframework in Frameworks */,
+				BA6BEB0529193B4500F6AF86 /* gstvideo-1.0.0.xcframework in Frameworks */,
+				BA6BEB1529193B4500F6AF86 /* pixman-1.0.xcframework in Frameworks */,
+				BA6BEAF129193B4400F6AF86 /* gstfft-1.0.0.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,99 +510,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA3C889D2916AC2600F9DBFA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BA3C88E52916AC3100F9DBFA /* asprintf.0.framework */,
-				BA3C88CE2916AC2D00F9DBFA /* charset.1.framework */,
-				BA3C88A52916AC2700F9DBFA /* crypto.1.1.framework */,
-				BA3C88D72916AC2F00F9DBFA /* EGL.framework */,
-				BA3C88A72916AC2800F9DBFA /* epoxy.0.framework */,
-				BA3C88EB2916AC3200F9DBFA /* ffi.7.framework */,
-				BA3C88AD2916AC2900F9DBFA /* gcrypt.20.framework */,
-				BA3C88C52916AC2C00F9DBFA /* gettextlib-0.21.framework */,
-				BA3C88D42916AC2E00F9DBFA /* gettextpo.0.framework */,
-				BA3C88B22916AC2900F9DBFA /* gettextsrc-0.21.framework */,
-				BA3C88F02916AC3200F9DBFA /* gio-2.0.0.framework */,
-				BA3C88C12916AC2B00F9DBFA /* GLESv2.framework */,
-				BA3C88B52916AC2A00F9DBFA /* glib-2.0.0.framework */,
-				BA3C88BA2916AC2A00F9DBFA /* gmodule-2.0.0.framework */,
-				BA3C88DF2916AC3000F9DBFA /* gobject-2.0.0.framework */,
-				BA3C88E92916AC3100F9DBFA /* gpg-error.0.framework */,
-				BA3C88C42916AC2C00F9DBFA /* graphene-1.0.0.framework */,
-				BA3C88CA2916AC2D00F9DBFA /* gstallocators-1.0.0.framework */,
-				BA3C88E22916AC3000F9DBFA /* gstapp-1.0.0.framework */,
-				BA3C88CD2916AC2D00F9DBFA /* gstaudio-1.0.0.framework */,
-				BA3C88A12916AC2700F9DBFA /* gstbase-1.0.0.framework */,
-				BA3C88D52916AC2E00F9DBFA /* gstcheck-1.0.0.framework */,
-				BA3C88A62916AC2800F9DBFA /* gstcontroller-1.0.0.framework */,
-				BA3C88DA2916AC2F00F9DBFA /* gstfft-1.0.0.framework */,
-				BA3C889F2916AC2700F9DBFA /* gstgl-1.0.0.framework */,
-				BA3C88B42916AC2A00F9DBFA /* gstnet-1.0.0.framework */,
-				BA3C88CB2916AC2D00F9DBFA /* gstpbutils-1.0.0.framework */,
-				BA3C88B72916AC2A00F9DBFA /* gstreamer-1.0.0.framework */,
-				BA3C88B02916AC2900F9DBFA /* gstriff-1.0.0.framework */,
-				BA3C88E62916AC3100F9DBFA /* gstrtp-1.0.0.framework */,
-				BA3C88F12916AC3300F9DBFA /* gstrtsp-1.0.0.framework */,
-				BA3C88A22916AC2700F9DBFA /* gstsdp-1.0.0.framework */,
-				BA3C88D22916AC2E00F9DBFA /* gsttag-1.0.0.framework */,
-				BA3C88A42916AC2700F9DBFA /* gstvideo-1.0.0.framework */,
-				BA3C88D12916AC2E00F9DBFA /* gthread-2.0.0.framework */,
-				BA3C88D02916AC2E00F9DBFA /* Hypervisor.framework */,
-				BA3C88AA2916AC2800F9DBFA /* iconv.2.framework */,
-				BA3C88D62916AC2F00F9DBFA /* intl.8.framework */,
-				BA3C88E82916AC3100F9DBFA /* jpeg.62.framework */,
-				BA3C88E42916AC3100F9DBFA /* json-glib-1.0.0.framework */,
-				BA3C88DD2916AC3000F9DBFA /* opus.0.framework */,
-				BA3C889E2916AC2700F9DBFA /* phodav-2.0.0.framework */,
-				BA3C88C22916AC2C00F9DBFA /* pixman-1.0.framework */,
-				BA3C88D82916AC2F00F9DBFA /* png16.16.framework */,
-				BA3C88AB2916AC2800F9DBFA /* qemu-aarch64-softmmu.framework */,
-				BA3C88BC2916AC2B00F9DBFA /* qemu-alpha-softmmu.framework */,
-				BA3C88C92916AC2D00F9DBFA /* qemu-arm-softmmu.framework */,
-				BA3C88EA2916AC3200F9DBFA /* qemu-avr-softmmu.framework */,
-				BA3C88E72916AC3100F9DBFA /* qemu-cris-softmmu.framework */,
-				BA3C88A32916AC2700F9DBFA /* qemu-hppa-softmmu.framework */,
-				BA3C88AC2916AC2800F9DBFA /* qemu-i386-softmmu.framework */,
-				BA3C88AE2916AC2900F9DBFA /* qemu-img.framework */,
-				BA3C88F22916AC3300F9DBFA /* qemu-loongarch64-softmmu.framework */,
-				BA3C88CC2916AC2D00F9DBFA /* qemu-m68k-softmmu.framework */,
-				BA3C88B12916AC2900F9DBFA /* qemu-microblaze-softmmu.framework */,
-				BA3C88AF2916AC2900F9DBFA /* qemu-microblazeel-softmmu.framework */,
-				BA3C88EE2916AC3200F9DBFA /* qemu-mips-softmmu.framework */,
-				BA3C88CF2916AC2D00F9DBFA /* qemu-mips64-softmmu.framework */,
-				BA3C88BB2916AC2B00F9DBFA /* qemu-mips64el-softmmu.framework */,
-				BA3C88B32916AC2900F9DBFA /* qemu-mipsel-softmmu.framework */,
-				BA3C88C82916AC2D00F9DBFA /* qemu-nios2-softmmu.framework */,
-				BA3C88C32916AC2C00F9DBFA /* qemu-or1k-softmmu.framework */,
-				BA3C88EF2916AC3200F9DBFA /* qemu-ppc-softmmu.framework */,
-				BA3C88B82916AC2A00F9DBFA /* qemu-ppc64-softmmu.framework */,
-				BA3C88DB2916AC2F00F9DBFA /* qemu-riscv32-softmmu.framework */,
-				BA3C88DC2916AC3000F9DBFA /* qemu-riscv64-softmmu.framework */,
-				BA3C88BD2916AC2B00F9DBFA /* qemu-rx-softmmu.framework */,
-				BA3C88B62916AC2A00F9DBFA /* qemu-s390x-softmmu.framework */,
-				BA3C88C62916AC2C00F9DBFA /* qemu-sh4-softmmu.framework */,
-				BA3C88E02916AC3000F9DBFA /* qemu-sh4eb-softmmu.framework */,
-				BA3C88C02916AC2B00F9DBFA /* qemu-sparc-softmmu.framework */,
-				BA3C88B92916AC2A00F9DBFA /* qemu-sparc64-softmmu.framework */,
-				BA3C88DE2916AC3000F9DBFA /* qemu-tricore-softmmu.framework */,
-				BA3C88D32916AC2E00F9DBFA /* qemu-x86_64-softmmu.framework */,
-				BA3C88EC2916AC3200F9DBFA /* qemu-xtensa-softmmu.framework */,
-				BA3C88BE2916AC2B00F9DBFA /* qemu-xtensaeb-softmmu.framework */,
-				BA3C88A02916AC2700F9DBFA /* spice-client-glib-2.0.8.framework */,
-				BA3C88BF2916AC2B00F9DBFA /* spice-server.1.framework */,
-				BA3C88D92916AC2F00F9DBFA /* ssl.1.1.framework */,
-				BA3C88A82916AC2800F9DBFA /* textstyle.0.framework */,
-				BA3C88C72916AC2C00F9DBFA /* turbojpeg.0.framework */,
-				BA3C88ED2916AC3200F9DBFA /* usb-1.0.0.framework */,
-				BA3C88E32916AC3100F9DBFA /* usbredirhost.1.framework */,
-				BA3C88F32916AC3300F9DBFA /* usbredirparser.1.framework */,
-				BA3C88A92916AC2800F9DBFA /* virglrenderer.1.framework */,
-				BA3C88E12916AC3000F9DBFA /* zstd.1.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BA8F491C2916A84300A7CC2A = {
 			isa = PBXGroup;
 			children = (
@@ -258,7 +517,7 @@
 				BA8F49382916A84400A7CC2A /* iDETests */,
 				BA8F49422916A84400A7CC2A /* iDEUITests */,
 				BA8F49262916A84300A7CC2A /* Products */,
-				BA3C889D2916AC2600F9DBFA /* Frameworks */,
+				BA959E5929193A9200512801 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -309,6 +568,98 @@
 			path = iDEUITests;
 			sourceTree = "<group>";
 		};
+		BA959E5929193A9200512801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA959E9129193A9B00512801 /* asprintf.0.xcframework */,
+				BA959E8C29193A9A00512801 /* charset.1.xcframework */,
+				BA959E6829193A9400512801 /* crypto.1.1.xcframework */,
+				BA959E8829193A9900512801 /* EGL.xcframework */,
+				BA959E5B29193A9300512801 /* epoxy.0.xcframework */,
+				BA959E7529193A9600512801 /* ffi.7.xcframework */,
+				BA959EA129193A9D00512801 /* gcrypt.20.xcframework */,
+				BA959E7129193A9600512801 /* gettextlib-0.21.xcframework */,
+				BA959E6429193A9400512801 /* gettextpo.0.xcframework */,
+				BA959E7229193A9600512801 /* gettextsrc-0.21.xcframework */,
+				BA959E6729193A9400512801 /* gio-2.0.0.xcframework */,
+				BA959EA529193A9E00512801 /* GLESv2.xcframework */,
+				BA959E6229193A9400512801 /* glib-2.0.0.xcframework */,
+				BA959E7F29193A9800512801 /* gmodule-2.0.0.xcframework */,
+				BA959E7E29193A9800512801 /* gobject-2.0.0.xcframework */,
+				BA959E8A29193A9A00512801 /* gpg-error.0.xcframework */,
+				BA959E9829193A9C00512801 /* graphene-1.0.0.xcframework */,
+				BA959E9E29193A9D00512801 /* gstallocators-1.0.0.xcframework */,
+				BA959E9929193A9C00512801 /* gstapp-1.0.0.xcframework */,
+				BA959E8429193A9900512801 /* gstaudio-1.0.0.xcframework */,
+				BA959E7929193A9700512801 /* gstbase-1.0.0.xcframework */,
+				BA959E6E29193A9500512801 /* gstcheck-1.0.0.xcframework */,
+				BA959EAC29193A9F00512801 /* gstcontroller-1.0.0.xcframework */,
+				BA959E7429193A9600512801 /* gstfft-1.0.0.xcframework */,
+				BA959EAB29193A9F00512801 /* gstgl-1.0.0.xcframework */,
+				BA959E9329193A9B00512801 /* gstnet-1.0.0.xcframework */,
+				BA959E8029193A9800512801 /* gstpbutils-1.0.0.xcframework */,
+				BA959E9C29193A9C00512801 /* gstreamer-1.0.0.xcframework */,
+				BA959E9B29193A9C00512801 /* gstriff-1.0.0.xcframework */,
+				BA959EAD29193A9F00512801 /* gstrtp-1.0.0.xcframework */,
+				BA959E9A29193A9C00512801 /* gstrtsp-1.0.0.xcframework */,
+				BA959EA029193A9D00512801 /* gstsdp-1.0.0.xcframework */,
+				BA959E5F29193A9300512801 /* gsttag-1.0.0.xcframework */,
+				BA959E8B29193A9A00512801 /* gstvideo-1.0.0.xcframework */,
+				BA959E6329193A9400512801 /* gthread-2.0.0.xcframework */,
+				BA959EAA29193A9F00512801 /* iconv.2.xcframework */,
+				BA959E9D29193A9D00512801 /* intl.8.xcframework */,
+				BA959E9529193A9B00512801 /* jpeg.62.xcframework */,
+				BA959E8329193A9800512801 /* json-glib-1.0.0.xcframework */,
+				BA959E6929193A9500512801 /* opus.0.xcframework */,
+				BA959E8729193A9900512801 /* phodav-2.0.0.xcframework */,
+				BA959E7329193A9600512801 /* pixman-1.0.xcframework */,
+				BA959EA929193A9F00512801 /* png16.16.xcframework */,
+				BA959E7829193A9700512801 /* qemu-aarch64-softmmu.xcframework */,
+				BA959E5C29193A9300512801 /* qemu-alpha-softmmu.xcframework */,
+				BA959E6A29193A9500512801 /* qemu-arm-softmmu.xcframework */,
+				BA959EA829193A9E00512801 /* qemu-avr-softmmu.xcframework */,
+				BA959EA229193A9D00512801 /* qemu-cris-softmmu.xcframework */,
+				BA959E8629193A9900512801 /* qemu-hppa-softmmu.xcframework */,
+				BA959E8D29193A9A00512801 /* qemu-i386-softmmu.xcframework */,
+				BA959E8F29193A9A00512801 /* qemu-img.xcframework */,
+				BA959E5D29193A9300512801 /* qemu-loongarch64-softmmu.xcframework */,
+				BA959E5E29193A9300512801 /* qemu-m68k-softmmu.xcframework */,
+				BA959E6529193A9400512801 /* qemu-microblaze-softmmu.xcframework */,
+				BA959E6029193A9300512801 /* qemu-microblazeel-softmmu.xcframework */,
+				BA959E7D29193A9700512801 /* qemu-mips-softmmu.xcframework */,
+				BA959EA629193A9E00512801 /* qemu-mips64-softmmu.xcframework */,
+				BA959E7B29193A9700512801 /* qemu-mips64el-softmmu.xcframework */,
+				BA959EA329193A9D00512801 /* qemu-mipsel-softmmu.xcframework */,
+				BA959E6B29193A9500512801 /* qemu-nios2-softmmu.xcframework */,
+				BA959E8129193A9800512801 /* qemu-or1k-softmmu.xcframework */,
+				BA959EA429193A9E00512801 /* qemu-ppc-softmmu.xcframework */,
+				BA959E9729193A9C00512801 /* qemu-ppc64-softmmu.xcframework */,
+				BA959E6129193A9300512801 /* qemu-riscv32-softmmu.xcframework */,
+				BA959E6629193A9400512801 /* qemu-riscv64-softmmu.xcframework */,
+				BA959E9229193A9B00512801 /* qemu-rx-softmmu.xcframework */,
+				BA959E8929193A9900512801 /* qemu-s390x-softmmu.xcframework */,
+				BA959E9629193A9B00512801 /* qemu-sh4-softmmu.xcframework */,
+				BA959E7629193A9600512801 /* qemu-sh4eb-softmmu.xcframework */,
+				BA959E8229193A9800512801 /* qemu-sparc-softmmu.xcframework */,
+				BA959E5A29193A9300512801 /* qemu-sparc64-softmmu.xcframework */,
+				BA959E7029193A9500512801 /* qemu-tricore-softmmu.xcframework */,
+				BA959E7729193A9700512801 /* qemu-x86_64-softmmu.xcframework */,
+				BA959E6C29193A9500512801 /* qemu-xtensa-softmmu.xcframework */,
+				BA959E7A29193A9700512801 /* qemu-xtensaeb-softmmu.xcframework */,
+				BA959E9029193A9A00512801 /* spice-client-glib-2.0.8.xcframework */,
+				BA959E6D29193A9500512801 /* spice-server.1.xcframework */,
+				BA959E6F29193A9500512801 /* ssl.1.1.xcframework */,
+				BA959E7C29193A9700512801 /* textstyle.0.xcframework */,
+				BA959EA729193A9E00512801 /* turbojpeg.0.xcframework */,
+				BA959E8E29193A9A00512801 /* usb-1.0.0.xcframework */,
+				BA959E8529193A9900512801 /* usbredirhost.1.xcframework */,
+				BA959E9F29193A9D00512801 /* usbredirparser.1.xcframework */,
+				BA959E9429193A9B00512801 /* virglrenderer.1.xcframework */,
+				BA959EAE29193A9F00512801 /* zstd.1.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,6 +670,7 @@
 				BA8F49212916A84300A7CC2A /* Sources */,
 				BA8F49222916A84300A7CC2A /* Frameworks */,
 				BA8F49232916A84300A7CC2A /* Resources */,
+				BA6BEB6D29193B4700F6AF86 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
