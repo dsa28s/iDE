@@ -177,6 +177,11 @@
 		BA6BEB6A29193B4700F6AF86 /* virglrenderer.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9429193A9B00512801 /* virglrenderer.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA6BEB6B29193B4700F6AF86 /* zstd.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAE29193A9F00512801 /* zstd.1.xcframework */; };
 		BA6BEB6C29193B4700F6AF86 /* zstd.1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959EAE29193A9F00512801 /* zstd.1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6EB285291A3741008200F6 /* IDEJITManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6EB284291A3741008200F6 /* IDEJITManager.m */; };
+		BA6EB288291A3CDC008200F6 /* IDELogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6EB287291A3CDC008200F6 /* IDELogger.swift */; };
+		BA6EB28B291A3D70008200F6 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = BA6EB28A291A3D70008200F6 /* Logging */; };
+		BA6EB28E291A3E68008200F6 /* IDELogging.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6EB28D291A3E68008200F6 /* IDELogging.m */; };
+		BA6EB291291A3F79008200F6 /* IDELoggingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6EB290291A3F79008200F6 /* IDELoggingHandler.swift */; };
 		BA8F49292916A84300A7CC2A /* iDEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49282916A84300A7CC2A /* iDEApp.swift */; };
 		BA8F492B2916A84300A7CC2A /* MainEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */; };
 		BA8F492D2916A84300A7CC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8F492C2916A84300A7CC2A /* Assets.xcassets */; };
@@ -303,6 +308,14 @@
 
 /* Begin PBXFileReference section */
 		BA3C889C2916AA1700F9DBFA /* iDE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iDE.entitlements; sourceTree = "<group>"; };
+		BA6EB282291A3740008200F6 /* iDE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDE-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA6EB283291A3741008200F6 /* IDEJITManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEJITManager.h; sourceTree = "<group>"; };
+		BA6EB284291A3741008200F6 /* IDEJITManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEJITManager.m; sourceTree = "<group>"; };
+		BA6EB287291A3CDC008200F6 /* IDELogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDELogger.swift; sourceTree = "<group>"; };
+		BA6EB28C291A3DE7008200F6 /* IDELoggingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDELoggingDelegate.h; sourceTree = "<group>"; };
+		BA6EB28D291A3E68008200F6 /* IDELogging.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDELogging.m; sourceTree = "<group>"; };
+		BA6EB28F291A3E71008200F6 /* IDELogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDELogging.h; sourceTree = "<group>"; };
+		BA6EB290291A3F79008200F6 /* IDELoggingHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDELoggingHandler.swift; sourceTree = "<group>"; };
 		BA8F49252916A84300A7CC2A /* iDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8F49282916A84300A7CC2A /* iDEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDEApp.swift; sourceTree = "<group>"; };
 		BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
@@ -405,6 +418,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6EB28B291A3D70008200F6 /* Logging in Frameworks */,
 				BA6BEB5129193B4600F6AF86 /* qemu-tricore-softmmu.xcframework in Frameworks */,
 				BA6BEB6729193B4700F6AF86 /* usbredirparser.1.xcframework in Frameworks */,
 				BA6BEB4129193B4600F6AF86 /* qemu-riscv32-softmmu.xcframework in Frameworks */,
@@ -510,6 +524,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA6EB281291A3725008200F6 /* JIT */ = {
+			isa = PBXGroup;
+			children = (
+				BA6EB283291A3741008200F6 /* IDEJITManager.h */,
+				BA6EB284291A3741008200F6 /* IDEJITManager.m */,
+			);
+			path = JIT;
+			sourceTree = "<group>";
+		};
+		BA6EB286291A3CD0008200F6 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				BA6EB287291A3CDC008200F6 /* IDELogger.swift */,
+				BA6EB28C291A3DE7008200F6 /* IDELoggingDelegate.h */,
+				BA6EB28D291A3E68008200F6 /* IDELogging.m */,
+				BA6EB28F291A3E71008200F6 /* IDELogging.h */,
+				BA6EB290291A3F79008200F6 /* IDELoggingHandler.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
 		BA8F491C2916A84300A7CC2A = {
 			isa = PBXGroup;
 			children = (
@@ -534,6 +569,9 @@
 		BA8F49272916A84300A7CC2A /* iDE */ = {
 			isa = PBXGroup;
 			children = (
+				BA6EB282291A3740008200F6 /* iDE-Bridging-Header.h */,
+				BA6EB286291A3CD0008200F6 /* Logger */,
+				BA6EB281291A3725008200F6 /* JIT */,
 				BA3C889C2916AA1700F9DBFA /* iDE.entitlements */,
 				BA8F49282916A84300A7CC2A /* iDEApp.swift */,
 				BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */,
@@ -677,6 +715,9 @@
 			dependencies = (
 			);
 			name = iDE;
+			packageProductDependencies = (
+				BA6EB28A291A3D70008200F6 /* Logging */,
+			);
 			productName = iDE;
 			productReference = BA8F49252916A84300A7CC2A /* iDE.app */;
 			productType = "com.apple.product-type.application";
@@ -729,6 +770,7 @@
 				TargetAttributes = {
 					BA8F49242916A84300A7CC2A = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					BA8F49342916A84400A7CC2A = {
 						CreatedOnToolsVersion = 14.1;
@@ -749,6 +791,9 @@
 				Base,
 			);
 			mainGroup = BA8F491C2916A84300A7CC2A;
+			packageReferences = (
+				BA6EB289291A3D70008200F6 /* XCRemoteSwiftPackageReference "swift-log" */,
+			);
 			productRefGroup = BA8F49262916A84300A7CC2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -791,6 +836,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6EB28E291A3E68008200F6 /* IDELogging.m in Sources */,
+				BA6EB291291A3F79008200F6 /* IDELoggingHandler.swift in Sources */,
+				BA6EB288291A3CDC008200F6 /* IDELogger.swift in Sources */,
+				BA6EB285291A3741008200F6 /* IDEJITManager.m in Sources */,
 				BA8F492B2916A84300A7CC2A /* MainEntryPoint.swift in Sources */,
 				BA8F49292916A84300A7CC2A /* iDEApp.swift in Sources */,
 			);
@@ -948,6 +997,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iDE/iDE.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -968,6 +1018,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.sanghun.ide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iDE/iDE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -978,6 +1030,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iDE/iDE.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -998,6 +1051,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.sanghun.ide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iDE/iDE-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1119,6 +1173,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA6EB289291A3D70008200F6 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA6EB28A291A3D70008200F6 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6EB289291A3D70008200F6 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA8F491D2916A84300A7CC2A /* Project object */;
 }
