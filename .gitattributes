@@ -1,2 +1,0 @@
-QEMUFirmware/edk2-arm-code.fd filter=lfs diff=lfs merge=lfs -text
-QEMUFirmware/edk2-aarch64-code.fd filter=lfs diff=lfs merge=lfs -text
