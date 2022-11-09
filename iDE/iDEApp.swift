@@ -1,10 +1,10 @@
+import ComposableArchitecture
 import SwiftUI
-
 
 @main
 class iDEMain {
     static var jitAvailable = true
-    
+
     static func main() {
         if jb_spawn_ptrace_child(CommandLine.argc, CommandLine.unsafeArgv) {
             logger.info("JIT: ptrace() child spawn trick")
@@ -24,7 +24,7 @@ class iDEMain {
         if jb_increase_memlimit() {
             logger.info("MEM: successfully removed memory limits")
         }
-        
+
         iDEApp.main()
     }
 }
@@ -32,7 +32,9 @@ class iDEMain {
 struct iDEApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                licenseAgreementStore: Store(initialState: LicenseAgreement.State(), reducer: LicenseAgreement())
+            )
         }
     }
 }

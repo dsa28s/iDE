@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "sheekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/edudnyk/SheeKit.git",
+      "state" : {
+        "revision" : "4bdc3b7ff784b893ec8f802e4154cd0d0bdf1b46",
+        "version" : "2.0.1"
+      }
+    },
+    {
       "identity" : "swift-case-paths",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-case-paths",
