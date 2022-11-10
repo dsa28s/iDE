@@ -25,7 +25,10 @@ struct ContentView: View {
                 ),
                 presentedViewControllerParameters: presentedLicenseAgreementSheetParams
             ) {
-                IDELicenseAgreementDialogView()
+                IDELicenseAgreementDialogView(
+                    onAgreed: {},
+                    onDisagreed: {}
+                )
             }
         }
     }

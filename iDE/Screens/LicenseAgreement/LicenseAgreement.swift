@@ -16,13 +16,11 @@ extension DefaultsKeys {
 struct LicenseAgreement: ReducerProtocol {
     struct State: Equatable {
         var isLicenseAgreed = Defaults[\.isLicenseAgreed]
-        var pendingDisagreeSubmit = false
     }
 
     enum Action: Equatable {
         case agreeLicense // 약관 동의
         case disagreeLicense // 약관 미동의
-        case confirmDisagreeLicense // 약관 미동의 최종
     }
 
     func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
@@ -33,9 +31,6 @@ struct LicenseAgreement: ReducerProtocol {
 
             return .none
         case .disagreeLicense:
-            state.pendingDisagreeSubmit = true
-            return .none
-        case .confirmDisagreeLicense:
             exit(0)
         }
     }

@@ -1,2 +1,9 @@
 LICENSE_AGREEMENT = "License Agreement";
 LICENSE_AGREEMENT_DESCRIPTION = "To use iDE, you must read and accept the license agreement below.";
+LICENSE_AGREEMENT_NOT_AGREE_CONFIRM_TITLE = "Disagree iDE License Agreement?";
+LICENSE_AGREEMENT_NOT_AGREE_CONFIRM_DESCRIPTION = "If you disagree the license agreement, iDE will not be available.";
+LICENSE_AGREEMENT_AGREE_CONFIRM_TITLE = "Agree to the license agreement";
+LICENSE_AGREEMENT_AGREE_CONFIRM_DESCRIPTION = "I have read and accept the iDE license agreement.";
+
+COMMON_OK = "OK";
+COMMON_CANCEL = "Cancel";
