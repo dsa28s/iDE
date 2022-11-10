@@ -202,6 +202,7 @@
 		BA985B77291BA8DE00C2D68B /* Hypervisor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA985B79291BAB6C00C2D68B /* String+Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA985B78291BAB6C00C2D68B /* String+Markdown.swift */; };
 		BA985B7C291BADEA00C2D68B /* AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA985B7B291BADEA00C2D68B /* AttributedString.swift */; };
+		BAD257D2291D195100167EF1 /* SwiftUITrackableScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -481,6 +482,7 @@
 				BA6BEB3529193B4500F6AF86 /* qemu-mips64el-softmmu.xcframework in Frameworks */,
 				BA6BEB0B29193B4500F6AF86 /* intl.8.xcframework in Frameworks */,
 				BA6BEB3329193B4500F6AF86 /* qemu-mips64-softmmu.xcframework in Frameworks */,
+				BAD257D2291D195100167EF1 /* SwiftUITrackableScrollView in Frameworks */,
 				BA6BEADD29193B4400F6AF86 /* gmodule-2.0.0.xcframework in Frameworks */,
 				BA6BEB4329193B4600F6AF86 /* qemu-riscv64-softmmu.xcframework in Frameworks */,
 				BA6BEAFD29193B4500F6AF86 /* gstrtp-1.0.0.xcframework in Frameworks */,
@@ -814,6 +816,7 @@
 				BA2917FC291A685D0061A328 /* Dependencies */,
 				BA2917FF291A6B3A0061A328 /* SwiftyUserDefaults */,
 				BA730585291B9B8400104A2E /* SheeKit */,
+				BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */,
 			);
 			productName = iDE;
 			productReference = BA8F49252916A84300A7CC2A /* iDE.app */;
@@ -893,6 +896,7 @@
 				BA2917F9291A685D0061A328 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 				BA2917FE291A6B3A0061A328 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
 				BA291803291A70240061A328 /* XCRemoteSwiftPackageReference "SheeKit" */,
+				BAD257D0291D195100167EF1 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */,
 			);
 			productRefGroup = BA8F49262916A84300A7CC2A /* Products */;
 			projectDirPath = "";
@@ -1341,6 +1345,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		BAD257D0291D195100167EF1 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxnatchanon/trackable-scroll-view.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1368,6 +1380,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BA291803291A70240061A328 /* XCRemoteSwiftPackageReference "SheeKit" */;
 			productName = SheeKit;
+		};
+		BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAD257D0291D195100167EF1 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */;
+			productName = SwiftUITrackableScrollView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
