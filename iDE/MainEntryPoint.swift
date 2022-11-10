@@ -26,8 +26,8 @@ struct ContentView: View {
                 presentedViewControllerParameters: presentedLicenseAgreementSheetParams
             ) {
                 IDELicenseAgreementDialogView(
-                    onAgreed: {},
-                    onDisagreed: {}
+                    onAgreed: { viewStore.send(.agreeLicense) },
+                    onDisagreed: { viewStore.send(.disagreeLicense) }
                 )
             }
         }

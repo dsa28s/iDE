@@ -198,10 +198,8 @@
 		BA8F493A2916A84400A7CC2A /* iDETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49392916A84400A7CC2A /* iDETests.swift */; };
 		BA8F49442916A84400A7CC2A /* iDEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49432916A84400A7CC2A /* iDEUITests.swift */; };
 		BA8F49462916A84400A7CC2A /* iDEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49452916A84400A7CC2A /* iDEUITestsLaunchTests.swift */; };
-		BA985B76291BA8DE00C2D68B /* Hypervisor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; };
-		BA985B77291BA8DE00C2D68B /* Hypervisor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BA985B79291BAB6C00C2D68B /* String+Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA985B78291BAB6C00C2D68B /* String+Markdown.swift */; };
-		BA985B7C291BADEA00C2D68B /* AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA985B7B291BADEA00C2D68B /* AttributedString.swift */; };
+		BACCE4A1291D56D6002B2C61 /* Hypervisor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; };
+		BACCE4A2291D56D6002B2C61 /* Hypervisor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BAD257D2291D195100167EF1 /* SwiftUITrackableScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */; };
 /* End PBXBuildFile section */
 
@@ -280,7 +278,7 @@
 				BA6BEAD629193B4400F6AF86 /* gettextsrc-0.21.xcframework in Embed Frameworks */,
 				BA6BEB4E29193B4600F6AF86 /* qemu-sparc-softmmu.xcframework in Embed Frameworks */,
 				BA6BEAE029193B4400F6AF86 /* gobject-2.0.0.xcframework in Embed Frameworks */,
-				BA985B77291BA8DE00C2D68B /* Hypervisor.framework in Embed Frameworks */,
+				BACCE4A2291D56D6002B2C61 /* Hypervisor.framework in Embed Frameworks */,
 				BA6BEACC29193B4400F6AF86 /* epoxy.0.xcframework in Embed Frameworks */,
 				BA6BEB2629193B4500F6AF86 /* qemu-i386-softmmu.xcframework in Embed Frameworks */,
 				BA6BEB1429193B4500F6AF86 /* phodav-2.0.0.xcframework in Embed Frameworks */,
@@ -433,8 +431,6 @@
 		BA959EAC29193A9F00512801 /* gstcontroller-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstcontroller-1.0.0.xcframework"; path = "QEMUFrameworks/gstcontroller-1.0.0.xcframework"; sourceTree = "<group>"; };
 		BA959EAD29193A9F00512801 /* gstrtp-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstrtp-1.0.0.xcframework"; path = "QEMUFrameworks/gstrtp-1.0.0.xcframework"; sourceTree = "<group>"; };
 		BA959EAE29193A9F00512801 /* zstd.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = zstd.1.xcframework; path = QEMUFrameworks/zstd.1.xcframework; sourceTree = "<group>"; };
-		BA985B78291BAB6C00C2D68B /* String+Markdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Markdown.swift"; sourceTree = "<group>"; };
-		BA985B7B291BADEA00C2D68B /* AttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -457,6 +453,7 @@
 				BA6BEAEB29193B4400F6AF86 /* gstbase-1.0.0.xcframework in Frameworks */,
 				BA6BEAE129193B4400F6AF86 /* gpg-error.0.xcframework in Frameworks */,
 				BA6BEB5F29193B4600F6AF86 /* textstyle.0.xcframework in Frameworks */,
+				BACCE4A1291D56D6002B2C61 /* Hypervisor.framework in Frameworks */,
 				BA6BEB5529193B4600F6AF86 /* qemu-xtensa-softmmu.xcframework in Frameworks */,
 				BA6BEB1D29193B4500F6AF86 /* qemu-arm-softmmu.xcframework in Frameworks */,
 				BA6BEB6129193B4600F6AF86 /* turbojpeg.0.xcframework in Frameworks */,
@@ -466,7 +463,6 @@
 				BA6BEB0D29193B4500F6AF86 /* jpeg.62.xcframework in Frameworks */,
 				BA6BEACF29193B4400F6AF86 /* gcrypt.20.xcframework in Frameworks */,
 				BA6BEAED29193B4400F6AF86 /* gstcheck-1.0.0.xcframework in Frameworks */,
-				BA985B76291BA8DE00C2D68B /* Hypervisor.framework in Frameworks */,
 				BA6BEAE329193B4400F6AF86 /* graphene-1.0.0.xcframework in Frameworks */,
 				BA6BEB0929193B4500F6AF86 /* iconv.2.xcframework in Frameworks */,
 				BA6BEAF529193B4400F6AF86 /* gstnet-1.0.0.xcframework in Frameworks */,
@@ -596,7 +592,6 @@
 			isa = PBXGroup;
 			children = (
 				BA730583291B981200104A2E /* SwiftUI+Binding.swift */,
-				BA985B78291BAB6C00C2D68B /* String+Markdown.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -656,7 +651,6 @@
 				BA6EB281291A3725008200F6 /* JIT */,
 				BA2917F5291A66ED0061A328 /* Screens */,
 				BA730582291B980500104A2E /* Extensions */,
-				BA985B7A291BADBC00C2D68B /* Views */,
 				BA3C889C2916AA1700F9DBFA /* iDE.entitlements */,
 				BA8F49282916A84300A7CC2A /* iDEApp.swift */,
 				BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */,
@@ -783,14 +777,6 @@
 				BA959EAE29193A9F00512801 /* zstd.1.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BA985B7A291BADBC00C2D68B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				BA985B7B291BADEA00C2D68B /* AttributedString.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -943,12 +929,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA6EB28E291A3E68008200F6 /* IDELogging.m in Sources */,
-				BA985B7C291BADEA00C2D68B /* AttributedString.swift in Sources */,
 				BA2917F8291A67710061A328 /* LicenseAgreement.swift in Sources */,
 				BA291802291A6C8A0061A328 /* LicenseAgreementDialogView.swift in Sources */,
 				BA6EB291291A3F79008200F6 /* IDELoggingHandler.swift in Sources */,
 				BA730584291B981200104A2E /* SwiftUI+Binding.swift in Sources */,
-				BA985B79291BAB6C00C2D68B /* String+Markdown.swift in Sources */,
 				BA6EB288291A3CDC008200F6 /* IDELogger.swift in Sources */,
 				BA6EB285291A3741008200F6 /* IDEJITManager.m in Sources */,
 				BA8F492B2916A84300A7CC2A /* MainEntryPoint.swift in Sources */,
