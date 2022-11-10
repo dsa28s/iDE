@@ -91,6 +91,15 @@
       }
     },
     {
+      "identity" : "trackable-scroll-view",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maxnatchanon/trackable-scroll-view.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "4b094575c2370c3341d0b377a27b46bda4f937f7"
+      }
+    },
+    {
       "identity" : "xctest-dynamic-overlay",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
