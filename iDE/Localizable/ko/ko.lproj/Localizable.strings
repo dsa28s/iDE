@@ -7,5 +7,8 @@ LICENSE_AGREEMENT_AGREE_CONFIRM_DESCRIPTION = "iDE 사용 약관을 읽었으며
 LICENSE_AGREEMENT_NOT_AGREE_BUTTON_LABEL = "동의하지 않음";
 LICENSE_AGREEMENT_AGREE_BUTTON_LABEL = "읽었으며 동의 함";
 
+JIT_UNAVAILABLE_TITLE = "iDE를 실행할 수 없음";
+JIT_UNAVAILABLE_DESCRIPTION = "iDE를 실행하기 위해서는 JIT(Just-In-Time)이 활성화 되어야 합니다.\niPadOS에서 iDE앱에 JIT을 활성화 하기 위해서는 iDE Launcher로 iDE를 실행해야만 합니다.\n\niDE Launcher로 다시 실행해주세요.";
+
 COMMON_OK = "확인";
 COMMON_CANCEL = "취소";

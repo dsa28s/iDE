@@ -7,5 +7,8 @@ LICENSE_AGREEMENT_AGREE_CONFIRM_DESCRIPTION = "I have read and accept the iDE li
 LICENSE_AGREEMENT_NOT_AGREE_BUTTON_LABEL = "Disagree";
 LICENSE_AGREEMENT_AGREE_BUTTON_LABEL = "Read and Agree";
 
+JIT_UNAVAILABLE_TITLE = "Unable to run iDE";
+JIT_UNAVAILABLE_DESCRIPTION = "Just-in-time (JIT) must be enabled to run iDE.\nIn order to activate JIT on the iDE app in iPadOS, iDE must be run with the iDE Launcher.\n\nPlease run it again with iDE Launcher.";
+
 COMMON_OK = "OK";
 COMMON_CANCEL = "Cancel";
