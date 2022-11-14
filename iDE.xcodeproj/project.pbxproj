@@ -12,6 +12,8 @@
 		BA2917FD291A685D0061A328 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = BA2917FC291A685D0061A328 /* Dependencies */; };
 		BA291800291A6B3A0061A328 /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = BA2917FF291A6B3A0061A328 /* SwiftyUserDefaults */; };
 		BA291802291A6C8A0061A328 /* LicenseAgreementDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA291801291A6C8A0061A328 /* LicenseAgreementDialogView.swift */; };
+		BA309FC529214463000C0AA0 /* JITChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA309FC429214463000C0AA0 /* JITChecker.swift */; };
+		BA309FC729214507000C0AA0 /* JITUnavailableDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA309FC629214507000C0AA0 /* JITUnavailableDialogView.swift */; };
 		BA6BEAC329193B4400F6AF86 /* asprintf.0.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9129193A9B00512801 /* asprintf.0.xcframework */; };
 		BA6BEAC429193B4400F6AF86 /* asprintf.0.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E9129193A9B00512801 /* asprintf.0.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA6BEAC529193B4400F6AF86 /* charset.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA959E8C29193A9A00512801 /* charset.1.xcframework */; };
@@ -322,6 +324,8 @@
 /* Begin PBXFileReference section */
 		BA2917F7291A67710061A328 /* LicenseAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseAgreement.swift; sourceTree = "<group>"; };
 		BA291801291A6C8A0061A328 /* LicenseAgreementDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseAgreementDialogView.swift; sourceTree = "<group>"; };
+		BA309FC429214463000C0AA0 /* JITChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JITChecker.swift; sourceTree = "<group>"; };
+		BA309FC629214507000C0AA0 /* JITUnavailableDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JITUnavailableDialogView.swift; sourceTree = "<group>"; };
 		BA3C889C2916AA1700F9DBFA /* iDE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iDE.entitlements; sourceTree = "<group>"; };
 		BA6EB282291A3740008200F6 /* iDE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDE-Bridging-Header.h"; sourceTree = "<group>"; };
 		BA6EB283291A3741008200F6 /* IDEJITManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEJITManager.h; sourceTree = "<group>"; };
@@ -553,6 +557,7 @@
 		BA2917F5291A66ED0061A328 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				BA309FC329214445000C0AA0 /* JITChecker */,
 				BA2917F6291A671B0061A328 /* LicenseAgreement */,
 			);
 			path = Screens;
@@ -565,6 +570,15 @@
 				BA291801291A6C8A0061A328 /* LicenseAgreementDialogView.swift */,
 			);
 			path = LicenseAgreement;
+			sourceTree = "<group>";
+		};
+		BA309FC329214445000C0AA0 /* JITChecker */ = {
+			isa = PBXGroup;
+			children = (
+				BA309FC429214463000C0AA0 /* JITChecker.swift */,
+				BA309FC629214507000C0AA0 /* JITUnavailableDialogView.swift */,
+			);
+			path = JITChecker;
 			sourceTree = "<group>";
 		};
 		BA6EB281291A3725008200F6 /* JIT */ = {
@@ -647,8 +661,8 @@
 			children = (
 				BA6EB282291A3740008200F6 /* iDE-Bridging-Header.h */,
 				BA730591291B9CEC00104A2E /* Localizable */,
-				BA6EB286291A3CD0008200F6 /* Logger */,
 				BA6EB281291A3725008200F6 /* JIT */,
+				BA6EB286291A3CD0008200F6 /* Logger */,
 				BA2917F5291A66ED0061A328 /* Screens */,
 				BA730582291B980500104A2E /* Extensions */,
 				BA3C889C2916AA1700F9DBFA /* iDE.entitlements */,
@@ -928,10 +942,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA309FC529214463000C0AA0 /* JITChecker.swift in Sources */,
 				BA6EB28E291A3E68008200F6 /* IDELogging.m in Sources */,
 				BA2917F8291A67710061A328 /* LicenseAgreement.swift in Sources */,
 				BA291802291A6C8A0061A328 /* LicenseAgreementDialogView.swift in Sources */,
 				BA6EB291291A3F79008200F6 /* IDELoggingHandler.swift in Sources */,
+				BA309FC729214507000C0AA0 /* JITUnavailableDialogView.swift in Sources */,
 				BA730584291B981200104A2E /* SwiftUI+Binding.swift in Sources */,
 				BA6EB288291A3CDC008200F6 /* IDELogger.swift in Sources */,
 				BA6EB285291A3741008200F6 /* IDEJITManager.m in Sources */,
