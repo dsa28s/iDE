@@ -13,7 +13,7 @@ extension DefaultsKeys {
     var isLicenseAgreed: DefaultsKey<Bool> { .init("isLicenseAgreed", defaultValue: false) }
 }
 
-struct LicenseAgreement: ReducerProtocol {
+struct IDELicenseAgreement: ReducerProtocol {
     struct State: Equatable {
         var isLicenseAgreed = Defaults[\.isLicenseAgreed]
     }
