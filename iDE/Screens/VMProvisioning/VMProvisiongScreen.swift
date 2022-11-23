@@ -43,10 +43,18 @@ private struct IDEVMProvisioningInitialView: View {
 private struct IDEVMProvisioningDownloadVmView: View {
     let viewStore: ViewStoreOf<IDEVMProvisioning>
 
+    @Environment(\.colorScheme) var colorScheme
+
     var body: some View {
         VStack {
-            IDELottieView(fileName: "download_animation.json")
-                .frame(width: 200, height: 200)
+            if colorScheme == .dark {
+                IDELottieView(fileName: "download_animation.json")
+                    .colorInvert()
+                    .frame(width: 200, height: 200)
+            } else {
+                IDELottieView(fileName: "download_animation.json")
+                    .frame(width: 200, height: 200)
+            }
             Text("VM_PROVISIONING_DOWNLOADING")
                 .font(.title)
             Text("VM_PROVISIONING_DOWNLOADING_DESCRIPTION")
