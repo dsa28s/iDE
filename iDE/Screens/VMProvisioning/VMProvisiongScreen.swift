@@ -5,14 +5,13 @@
 // Description : VM Provisioning Screen
 // Author: Dora Lee <lee@sanghun.io>
 
+import ComposableArchitecture
 import Foundation
 import SwiftUI
-import ComposableArchitecture
-
 
 struct IDEVMProvisioningScreen: View {
     let store: StoreOf<IDEVMProvisioning>
-    
+
     var body: some View {
         WithViewStore(store, observe: { $0 }) { viewStore in
             if viewStore.screenState == .initial {
@@ -24,10 +23,9 @@ struct IDEVMProvisioningScreen: View {
     }
 }
 
-fileprivate struct IDEVMProvisioningInitialView: View {
-    
+private struct IDEVMProvisioningInitialView: View {
     let viewStore: ViewStoreOf<IDEVMProvisioning>
-    
+
     var body: some View {
         VStack {
             ProgressView()
@@ -42,10 +40,9 @@ fileprivate struct IDEVMProvisioningInitialView: View {
     }
 }
 
-fileprivate struct IDEVMProvisioningDownloadVmView: View {
-    
+private struct IDEVMProvisioningDownloadVmView: View {
     let viewStore: ViewStoreOf<IDEVMProvisioning>
-    
+
     var body: some View {
         VStack {
             IDELottieView(fileName: "download_animation.json")
@@ -60,9 +57,9 @@ fileprivate struct IDEVMProvisioningDownloadVmView: View {
     }
 }
 
-fileprivate struct IDEVMProvisioningExtractVmView: View {
+private struct IDEVMProvisioningExtractVmView: View {
     let viewStore: ViewStoreOf<IDEVMProvisioning>
-    
+
     var body: some View {
         VStack {
             IDELottieView(fileName: "extract_animation.json")
@@ -74,9 +71,9 @@ fileprivate struct IDEVMProvisioningExtractVmView: View {
     }
 }
 
-fileprivate struct IDEVMProvisioningBootVmView: View {
+private struct IDEVMProvisioningBootVmView: View {
     let viewStore: ViewStoreOf<IDEVMProvisioning>
-    
+
     var body: some View {
         VStack {
             IDELottieView(fileName: "vm_provisioning_animation.json")

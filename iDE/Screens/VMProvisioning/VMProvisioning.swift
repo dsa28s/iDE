@@ -13,19 +13,19 @@ typealias IDEVmProvisioningExtractingProgress = Int
 
 struct IDEVMProvisioning: ReducerProtocol {
     @Dependency(\.ideVmFileChecker) var vmFileChecker
-    
+
     enum ScreenState: Equatable {
         case initial
         case downloading
         case extracting
         case booting
     }
-    
+
     struct State: Equatable {
         var screenState: ScreenState = .initial
         var progress: Int = 0
     }
-    
+
     enum Action: Equatable {
         case check
         case download
@@ -33,7 +33,7 @@ struct IDEVMProvisioning: ReducerProtocol {
         case bootVm
         case ready
     }
-    
+
     var body: some ReducerProtocol<State, Action> {
         Reduce { state, action in
             switch action {

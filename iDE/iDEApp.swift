@@ -41,11 +41,11 @@ struct IDE: ReducerProtocol {
 
             case .jitChecker:
                 return .none
-                
+
             case .vmProvisioning(.ready):
                 // TODO: 메인 화면으로 넘기기
                 return .none
-                
+
             case .vmProvisioning:
                 return .none
             }

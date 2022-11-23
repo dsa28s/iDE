@@ -5,11 +5,9 @@
 // Description : iDE VM Image Checker
 // Author: Dora Lee <lee@sanghun.io>
 
-
-import Foundation
 import ComposableArchitecture
+import Foundation
 import XCTestDynamicOverlay
-
 
 struct IDEVmFileCheckerResult: Equatable, Sendable {
     var alreadyInstalled: Bool
@@ -26,7 +24,7 @@ extension IDEVmFileChecker: DependencyKey {
             let libraryDirectory = paths[0]
             let libraryUrl = URL(string: libraryDirectory)!
             let vmPath = libraryUrl.appendingPathComponent("VM")
-            
+
             if !FileManager.default.fileExists(atPath: vmPath.absoluteString) {
                 do {
                     try FileManager.default.createDirectory(atPath: vmPath.absoluteString, withIntermediateDirectories: true, attributes: nil)
@@ -34,13 +32,13 @@ extension IDEVmFileChecker: DependencyKey {
                     logger.info("\(error.localizedDescription)")
                 }
             }
-            
+
             let fdPath = vmPath.appendingPathComponent("efi_vars.fd")
             let imagePath = vmPath.appendingPathComponent("57B22AF2-F4B6-4A72-9C72-16E9BDECFE91.qcow2")
-            
+
             let fdExist = FileManager.default.fileExists(atPath: fdPath.absoluteString)
             let imageExist = FileManager.default.fileExists(atPath: imagePath.absoluteString)
-            
+
             return IDEVmFileCheckerResult(alreadyInstalled: fdExist && imageExist)
         }
     )

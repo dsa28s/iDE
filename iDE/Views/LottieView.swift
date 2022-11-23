@@ -9,34 +9,29 @@ import Foundation
 import Lottie
 import SwiftUI
 
-
 struct IDELottieView: UIViewRepresentable {
-    
     var fileName: String
-    
-    func makeUIView(context: UIViewRepresentableContext<IDELottieView>) -> UIView {
+
+    func makeUIView(context _: UIViewRepresentableContext<IDELottieView>) -> UIView {
         let view = UIView(frame: .zero)
         let animationView = LottieAnimationView()
         animationView.animation = Animation.named(fileName)
         animationView.contentMode = .scaleToFill
         animationView.loopMode = .loop
         animationView.backgroundBehavior = .pauseAndRestore
-        
+
         animationView.play()
-        
+
         animationView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(animationView)
-        
+
         NSLayoutConstraint.activate([
             animationView.widthAnchor.constraint(equalTo: view.widthAnchor),
-            animationView.heightAnchor.constraint(equalTo: view.heightAnchor)
+            animationView.heightAnchor.constraint(equalTo: view.heightAnchor),
         ])
-        
+
         return view
     }
-    
-    func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<IDELottieView>) {
-        
-    }
-}
 
+    func updateUIView(_: UIView, context _: UIViewRepresentableContext<IDELottieView>) {}
+}
