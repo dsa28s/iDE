@@ -64,11 +64,13 @@ struct ContentView: View {
                         IDEJITAvailableDialogView(onConfirmed: { viewStore.send(.unavailable) })
                     }.onAppear {
                         if viewStore.isJITAvailable {
-                            print("AVAILABLE")
                             viewStore.send(.available)
                         }
                     }
                 }
+            }
+            CaseLet(state: /IDE.State.vmProvisioning, action: IDE.Action.vmProvisioning) { store in
+                IDEVMProvisioningScreen(store: store)
             }
         }
     }

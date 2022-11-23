@@ -12,6 +12,7 @@ struct IDE: ReducerProtocol {
     enum State: Equatable {
         case licenseAgreement(IDELicenseAgreement.State)
         case jitChecker(IDEJITChecker.State)
+        case vmProvisioning(IDEVMProvisioning.State)
 
         init() {
             self = .licenseAgreement(IDELicenseAgreement.State())
@@ -21,6 +22,7 @@ struct IDE: ReducerProtocol {
     enum Action: Equatable {
         case licenseAgreement(IDELicenseAgreement.Action)
         case jitChecker(IDEJITChecker.Action)
+        case vmProvisioning(IDEVMProvisioning.Action)
     }
 
     var body: some ReducerProtocol<State, Action> {
@@ -34,10 +36,17 @@ struct IDE: ReducerProtocol {
                 return .none
 
             case .jitChecker(.available):
-                // TODO: VM 프로비저닝 화면으로 넘기기
+                state = .vmProvisioning(IDEVMProvisioning.State())
                 return .none
 
             case .jitChecker:
+                return .none
+                
+            case .vmProvisioning(.ready):
+                // TODO: 메인 화면으로 넘기기
+                return .none
+                
+            case .vmProvisioning:
                 return .none
             }
         }
@@ -46,6 +55,9 @@ struct IDE: ReducerProtocol {
         }
         .ifCaseLet(/State.jitChecker, action: /Action.jitChecker) {
             IDEJITChecker()
+        }
+        .ifCaseLet(/State.vmProvisioning, action: /Action.vmProvisioning) {
+            IDEVMProvisioning()
         }
     }
 }

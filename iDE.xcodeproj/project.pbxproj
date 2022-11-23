@@ -193,6 +193,14 @@
 		BA730586291B9B8400104A2E /* SheeKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA730585291B9B8400104A2E /* SheeKit */; };
 		BA730594291B9D0A00104A2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA730596291B9D0A00104A2E /* Localizable.strings */; };
 		BA7305A2291B9F0300104A2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA7305A4291B9F0300104A2E /* Localizable.strings */; };
+		BA7388D72927834800528E43 /* VMProvisioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7388D62927834800528E43 /* VMProvisioning.swift */; };
+		BA7388DA292783B900528E43 /* QEMUFirmware in Resources */ = {isa = PBXBuildFile; fileRef = BA7388D9292783B900528E43 /* QEMUFirmware */; };
+		BA7388DD2927910600528E43 /* VMProvisiongScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7388DC2927910600528E43 /* VMProvisiongScreen.swift */; };
+		BA7388E12927939100528E43 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BA7388E02927939100528E43 /* Lottie */; };
+		BA7388E3292793A500528E43 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7388E2292793A500528E43 /* LottieView.swift */; };
+		BA7388E62927945200528E43 /* vm_provisioning_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = BA7388E52927945200528E43 /* vm_provisioning_animation.json */; };
+		BA7388E829279A3200528E43 /* download_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = BA7388E729279A3200528E43 /* download_animation.json */; };
+		BA7388EB29279F4000528E43 /* VMFileChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7388EA29279F4000528E43 /* VMFileChecker.swift */; };
 		BA8F49292916A84300A7CC2A /* iDEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49282916A84300A7CC2A /* iDEApp.swift */; };
 		BA8F492B2916A84300A7CC2A /* MainEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */; };
 		BA8F492D2916A84300A7CC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8F492C2916A84300A7CC2A /* Assets.xcassets */; };
@@ -200,6 +208,7 @@
 		BA8F493A2916A84400A7CC2A /* iDETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49392916A84400A7CC2A /* iDETests.swift */; };
 		BA8F49442916A84400A7CC2A /* iDEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49432916A84400A7CC2A /* iDEUITests.swift */; };
 		BA8F49462916A84400A7CC2A /* iDEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49452916A84400A7CC2A /* iDEUITestsLaunchTests.swift */; };
+		BA958836292CEF2000275839 /* extract_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = BA958835292CEF2000275839 /* extract_animation.json */; };
 		BACCE4A1291D56D6002B2C61 /* Hypervisor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; };
 		BACCE4A2291D56D6002B2C61 /* Hypervisor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BAD257D2291D195100167EF1 /* SwiftUITrackableScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */; };
@@ -340,6 +349,14 @@
 		BA730595291B9D0A00104A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA7305A3291B9F0300104A2E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA7305A5291BA1C400104A2E /* Hypervisor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hypervisor.framework; path = "../../../Downloads/ide-xcframework-scripts/x86_64/Frameworks/Hypervisor.framework"; sourceTree = "<group>"; };
+		BA7388D62927834800528E43 /* VMProvisioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMProvisioning.swift; sourceTree = "<group>"; };
+		BA7388D9292783B900528E43 /* QEMUFirmware */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QEMUFirmware; sourceTree = SOURCE_ROOT; };
+		BA7388DB29278DE900528E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA7388DC2927910600528E43 /* VMProvisiongScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMProvisiongScreen.swift; sourceTree = "<group>"; };
+		BA7388E2292793A500528E43 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		BA7388E52927945200528E43 /* vm_provisioning_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vm_provisioning_animation.json; sourceTree = "<group>"; };
+		BA7388E729279A3200528E43 /* download_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = download_animation.json; sourceTree = "<group>"; };
+		BA7388EA29279F4000528E43 /* VMFileChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMFileChecker.swift; sourceTree = "<group>"; };
 		BA8F49252916A84300A7CC2A /* iDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8F49282916A84300A7CC2A /* iDEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDEApp.swift; sourceTree = "<group>"; };
 		BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
@@ -350,6 +367,7 @@
 		BA8F493F2916A84400A7CC2A /* iDEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8F49432916A84400A7CC2A /* iDEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDEUITests.swift; sourceTree = "<group>"; };
 		BA8F49452916A84400A7CC2A /* iDEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA958835292CEF2000275839 /* extract_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = extract_animation.json; sourceTree = "<group>"; };
 		BA959E5A29193A9300512801 /* qemu-sparc64-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-sparc64-softmmu.xcframework"; path = "QEMUFrameworks/qemu-sparc64-softmmu.xcframework"; sourceTree = "<group>"; };
 		BA959E5B29193A9300512801 /* epoxy.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = epoxy.0.xcframework; path = QEMUFrameworks/epoxy.0.xcframework; sourceTree = "<group>"; };
 		BA959E5C29193A9300512801 /* qemu-alpha-softmmu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "qemu-alpha-softmmu.xcframework"; path = "QEMUFrameworks/qemu-alpha-softmmu.xcframework"; sourceTree = "<group>"; };
@@ -453,6 +471,7 @@
 				BA6BEB4929193B4600F6AF86 /* qemu-sh4-softmmu.xcframework in Frameworks */,
 				BA6BEB5729193B4600F6AF86 /* qemu-xtensaeb-softmmu.xcframework in Frameworks */,
 				BA6BEB6529193B4600F6AF86 /* usbredirhost.1.xcframework in Frameworks */,
+				BA7388E12927939100528E43 /* Lottie in Frameworks */,
 				BA6BEB2129193B4500F6AF86 /* qemu-cris-softmmu.xcframework in Frameworks */,
 				BA6BEAEB29193B4400F6AF86 /* gstbase-1.0.0.xcframework in Frameworks */,
 				BA6BEAE129193B4400F6AF86 /* gpg-error.0.xcframework in Frameworks */,
@@ -557,6 +576,7 @@
 		BA2917F5291A66ED0061A328 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				BA7388D52927833200528E43 /* VMProvisioning */,
 				BA309FC329214445000C0AA0 /* JITChecker */,
 				BA2917F6291A671B0061A328 /* LicenseAgreement */,
 			);
@@ -635,6 +655,41 @@
 			path = ko;
 			sourceTree = "<group>";
 		};
+		BA7388D52927833200528E43 /* VMProvisioning */ = {
+			isa = PBXGroup;
+			children = (
+				BA7388D62927834800528E43 /* VMProvisioning.swift */,
+				BA7388DC2927910600528E43 /* VMProvisiongScreen.swift */,
+			);
+			path = VMProvisioning;
+			sourceTree = "<group>";
+		};
+		BA7388DE2927928900528E43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA7388E2292793A500528E43 /* LottieView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA7388E42927940300528E43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA958835292CEF2000275839 /* extract_animation.json */,
+				BA7388E729279A3200528E43 /* download_animation.json */,
+				BA7388E52927945200528E43 /* vm_provisioning_animation.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA7388E929279F1900528E43 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BA7388EA29279F4000528E43 /* VMFileChecker.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		BA8F491C2916A84300A7CC2A = {
 			isa = PBXGroup;
 			children = (
@@ -659,12 +714,17 @@
 		BA8F49272916A84300A7CC2A /* iDE */ = {
 			isa = PBXGroup;
 			children = (
+				BA7388DB29278DE900528E43 /* Info.plist */,
 				BA6EB282291A3740008200F6 /* iDE-Bridging-Header.h */,
 				BA730591291B9CEC00104A2E /* Localizable */,
 				BA6EB281291A3725008200F6 /* JIT */,
 				BA6EB286291A3CD0008200F6 /* Logger */,
+				BA7388E929279F1900528E43 /* Core */,
 				BA2917F5291A66ED0061A328 /* Screens */,
 				BA730582291B980500104A2E /* Extensions */,
+				BA7388DE2927928900528E43 /* Views */,
+				BA7388E42927940300528E43 /* Resources */,
+				BA7388D9292783B900528E43 /* QEMUFirmware */,
 				BA3C889C2916AA1700F9DBFA /* iDE.entitlements */,
 				BA8F49282916A84300A7CC2A /* iDEApp.swift */,
 				BA8F492A2916A84300A7CC2A /* MainEntryPoint.swift */,
@@ -817,6 +877,7 @@
 				BA2917FF291A6B3A0061A328 /* SwiftyUserDefaults */,
 				BA730585291B9B8400104A2E /* SheeKit */,
 				BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */,
+				BA7388E02927939100528E43 /* Lottie */,
 			);
 			productName = iDE;
 			productReference = BA8F49252916A84300A7CC2A /* iDE.app */;
@@ -897,6 +958,7 @@
 				BA2917FE291A6B3A0061A328 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
 				BA291803291A70240061A328 /* XCRemoteSwiftPackageReference "SheeKit" */,
 				BAD257D0291D195100167EF1 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */,
+				BA7388DF2927939100528E43 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = BA8F49262916A84300A7CC2A /* Products */;
 			projectDirPath = "";
@@ -914,10 +976,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA958836292CEF2000275839 /* extract_animation.json in Resources */,
+				BA7388E62927945200528E43 /* vm_provisioning_animation.json in Resources */,
 				BA8F49302916A84400A7CC2A /* Preview Assets.xcassets in Resources */,
 				BA7305A2291B9F0300104A2E /* Localizable.strings in Resources */,
 				BA730594291B9D0A00104A2E /* Localizable.strings in Resources */,
+				BA7388DA292783B900528E43 /* QEMUFirmware in Resources */,
 				BA8F492D2916A84300A7CC2A /* Assets.xcassets in Resources */,
+				BA7388E829279A3200528E43 /* download_animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -946,12 +1012,16 @@
 				BA6EB28E291A3E68008200F6 /* IDELogging.m in Sources */,
 				BA2917F8291A67710061A328 /* LicenseAgreement.swift in Sources */,
 				BA291802291A6C8A0061A328 /* LicenseAgreementDialogView.swift in Sources */,
+				BA7388EB29279F4000528E43 /* VMFileChecker.swift in Sources */,
 				BA6EB291291A3F79008200F6 /* IDELoggingHandler.swift in Sources */,
 				BA309FC729214507000C0AA0 /* JITUnavailableDialogView.swift in Sources */,
 				BA730584291B981200104A2E /* SwiftUI+Binding.swift in Sources */,
+				BA7388D72927834800528E43 /* VMProvisioning.swift in Sources */,
+				BA7388E3292793A500528E43 /* LottieView.swift in Sources */,
 				BA6EB288291A3CDC008200F6 /* IDELogger.swift in Sources */,
 				BA6EB285291A3741008200F6 /* IDEJITManager.m in Sources */,
 				BA8F492B2916A84300A7CC2A /* MainEntryPoint.swift in Sources */,
+				BA7388DD2927910600528E43 /* VMProvisiongScreen.swift in Sources */,
 				BA8F49292916A84300A7CC2A /* iDEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1139,6 +1209,7 @@
 					"$(PROJECT_DIR)/QEMUFrameworks",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iDE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1176,6 +1247,7 @@
 					"$(PROJECT_DIR)/QEMUFrameworks",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iDE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1345,6 +1417,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		BA7388DF2927939100528E43 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		BAD257D0291D195100167EF1 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/maxnatchanon/trackable-scroll-view.git";
@@ -1380,6 +1460,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BA291803291A70240061A328 /* XCRemoteSwiftPackageReference "SheeKit" */;
 			productName = SheeKit;
+		};
+		BA7388E02927939100528E43 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA7388DF2927939100528E43 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 		BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -10,5 +10,11 @@ LICENSE_AGREEMENT_AGREE_BUTTON_LABEL = "읽었으며 동의 함";
 JIT_UNAVAILABLE_TITLE = "iDE를 실행할 수 없음";
 JIT_UNAVAILABLE_DESCRIPTION = "JIT(Just-In-Time)이 활성화 되지 않아 iDE를 실행할 수 없습니다.\niPadOS에서 iDE앱에 JIT을 활성화 하기 위해서는 iDE Launcher로 iDE를 실행해야만 합니다.\n\niDE Launcher로 다시 실행해주세요.";
 
+VM_PROVISIONING_LOADING = "잠시만 기다려 주세요...";
+VM_PROVISIONING_DOWNLOADING = "iDE 런타임 이미지 다운로드 중...";
+VM_PROVISIONING_DOWNLOADING_DESCRIPTION = "iDE를 실행하기 위한 추가 데이터를 다운로드 받고 있습니다.\n해당 작업은 iDE 첫 실행할 때만 이루어지지만, iDE 추가 데이터가 업데이트 된 경우에도 이루어질 수 있습니다.";
+VM_PROVISIONING_EXTRACTING = "iDE 런타임 이미지 설치 중...";
+VM_PROVISIONING_BOOTING = "iDE 런타임 프로비저닝 중...";
+
 COMMON_OK = "확인";
 COMMON_CANCEL = "취소";
