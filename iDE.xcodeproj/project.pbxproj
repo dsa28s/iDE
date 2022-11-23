@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA22FD8D292E1919000C16B0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BA22FD8C292E1919000C16B0 /* Alamofire */; };
+		BA22FD8F292E1A54000C16B0 /* VMFileInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22FD8E292E1A54000C16B0 /* VMFileInstaller.swift */; };
 		BA2917F8291A67710061A328 /* LicenseAgreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2917F7291A67710061A328 /* LicenseAgreement.swift */; };
 		BA2917FB291A685D0061A328 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = BA2917FA291A685D0061A328 /* ComposableArchitecture */; };
 		BA2917FD291A685D0061A328 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = BA2917FC291A685D0061A328 /* Dependencies */; };
@@ -332,6 +333,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA22FD8E292E1A54000C16B0 /* VMFileInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMFileInstaller.swift; sourceTree = "<group>"; };
 		BA2917F7291A67710061A328 /* LicenseAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseAgreement.swift; sourceTree = "<group>"; };
 		BA291801291A6C8A0061A328 /* LicenseAgreementDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseAgreementDialogView.swift; sourceTree = "<group>"; };
 		BA309FC429214463000C0AA0 /* JITChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JITChecker.swift; sourceTree = "<group>"; };
@@ -688,6 +690,7 @@
 			isa = PBXGroup;
 			children = (
 				BA7388EA29279F4000528E43 /* VMFileChecker.swift */,
+				BA22FD8E292E1A54000C16B0 /* VMFileInstaller.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -1013,6 +1016,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA309FC529214463000C0AA0 /* JITChecker.swift in Sources */,
+				BA22FD8F292E1A54000C16B0 /* VMFileInstaller.swift in Sources */,
 				BA6EB28E291A3E68008200F6 /* IDELogging.m in Sources */,
 				BA2917F8291A67710061A328 /* LicenseAgreement.swift in Sources */,
 				BA291802291A6C8A0061A328 /* LicenseAgreementDialogView.swift in Sources */,

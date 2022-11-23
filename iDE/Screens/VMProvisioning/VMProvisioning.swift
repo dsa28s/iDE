@@ -13,6 +13,7 @@ typealias IDEVmProvisioningExtractingProgress = Int
 
 struct IDEVMProvisioning: ReducerProtocol {
     @Dependency(\.ideVmFileChecker) var vmFileChecker
+    @Dependency(\.ideVmFileInstaller) var vmFileInstaller
 
     enum ScreenState: Equatable {
         case initial
@@ -47,7 +48,13 @@ struct IDEVMProvisioning: ReducerProtocol {
                 }
             case .download:
                 state.screenState = .downloading
-                return .none
+                return .task {
+                    let data = await vmFileInstaller.download { progress in
+                        print(progress)
+                    }
+
+                    return .extract
+                }
             case .bootVm:
                 state.screenState = .booting
                 return .none
