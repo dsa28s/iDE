@@ -11,10 +11,10 @@ import Foundation
 import XCTestDynamicOverlay
 
 struct IDEVmFileInstaller: Sendable {
-    var download: @Sendable (_ progressHandler: @escaping (Int) -> Void) async -> Data
+    var download: @Sendable (_ progressHandler: @MainActor @escaping (Int64, Int64) -> Void) async -> Data
+    var install: @Sendable (Data) async -> Void
 }
 
-iDE / Core / VMFileInstaller.swift
 extension IDEVmFileInstaller: DependencyKey {
     static let liveValue = Self(
         download: { progressHandler in
@@ -24,15 +24,33 @@ extension IDEVmFileInstaller: DependencyKey {
             return await withUnsafeContinuation { continuation in
                 AF.download(downloadUrl)
                     .downloadProgress(queue: progressQueue) { progress in
-                        progressHandler(Int(progress.fractionCompleted * 100))
+                        DispatchQueue.main.async {
+                            progressHandler(progress.completedUnitCount, progress.totalUnitCount)
+                        }
                     }
                     .responseData { response in
                         if let file = response.value {
-                            print("===== DOWNLOAD COMPLETE")
-                            print(file)
                             continuation.resume(returning: file)
                         }
                     }
+            }
+        },
+        install: { data in
+            let paths = NSSearchPathForDirectoriesInDomains(.libraryDirectory, .userDomainMask, true)
+            let libraryDirectory = paths[0]
+            let libraryUrl = URL(string: libraryDirectory)!
+            let vmPath = libraryUrl.appendingPathComponent("VM")
+            let imagePath = vmPath.appendingPathComponent("iDELinuxVM_aarch64_20221125.zip")
+
+            await withUnsafeContinuation { continuation in
+                DispatchQueue.global(qos: .userInitiated).async {
+                    do {
+                        try data.write(to: URL(fileURLWithPath: imagePath.absoluteString))
+                    } catch {
+                        print(error)
+                    }
+                    continuation.resume()
+                }
             }
         }
     )
@@ -40,7 +58,8 @@ extension IDEVmFileInstaller: DependencyKey {
 
 extension IDEVmFileInstaller: TestDependencyKey {
     static let testValue = Self(
-        download: unimplemented("\(Self.self).download")
+        download: unimplemented("\(Self.self).download"),
+        install: unimplemented("\(Self.self).install")
     )
 }
 
