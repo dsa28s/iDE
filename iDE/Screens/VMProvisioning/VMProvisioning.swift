@@ -24,12 +24,14 @@ struct IDEVMProvisioning: ReducerProtocol {
 
     struct State: Equatable {
         var screenState: ScreenState = .initial
-        var progress: Int = 0
+        var currentDownloadOffset: Int64 = 0
+        var totalDownloadSize: Int64 = 0
     }
 
     enum Action: Equatable {
         case check
         case download
+        case downloading(currentOffset: Int64, totalSize: Int64)
         case extract
         case bootVm
         case ready
@@ -48,13 +50,21 @@ struct IDEVMProvisioning: ReducerProtocol {
                 }
             case .download:
                 state.screenState = .downloading
-                return .task {
-                    let data = await vmFileInstaller.download { progress in
-                        print(progress)
+                return .run { subscriber in
+                    let data = await vmFileInstaller.download { currentSize, totalSize in
+                        subscriber.send(.downloading(currentOffset: currentSize, totalSize: totalSize))
                     }
 
-                    return .extract
+                    await vmFileInstaller.install(data)
+                    await subscriber.send(.extract)
                 }
+            case let .downloading(current, total):
+                state.currentDownloadOffset = current
+                state.totalDownloadSize = total
+                return .none
+            case .extract:
+                state.screenState = .extracting
+                return .none
             case .bootVm:
                 state.screenState = .booting
                 return .none

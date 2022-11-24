@@ -18,6 +18,8 @@ struct IDEVMProvisioningScreen: View {
                 IDEVMProvisioningInitialView(viewStore: viewStore)
             } else if viewStore.screenState == .downloading {
                 IDEVMProvisioningDownloadVmView(viewStore: viewStore)
+            } else if viewStore.screenState == .extracting {
+                IDEVMProvisioningExtractVmView(viewStore: viewStore)
             }
         }
     }
@@ -55,8 +57,16 @@ private struct IDEVMProvisioningDownloadVmView: View {
                 IDELottieView(fileName: "download_animation.json")
                     .frame(width: 200, height: 200)
             }
-            Text("VM_PROVISIONING_DOWNLOADING")
-                .font(.title)
+            HStack {
+                Text("VM_PROVISIONING_DOWNLOADING")
+                    .font(.title)
+                    .padding(.trailing, 8)
+
+                if viewStore.totalDownloadSize > 0 {
+                    Text("\(Units(bytes: viewStore.currentDownloadOffset).getReadableUnit()) / \(Units(bytes: viewStore.totalDownloadSize).getReadableUnit())")
+                        .font(.title)
+                }
+            }
             Text("VM_PROVISIONING_DOWNLOADING_DESCRIPTION")
                 .font(.body)
                 .multilineTextAlignment(.center)
@@ -73,7 +83,7 @@ private struct IDEVMProvisioningExtractVmView: View {
             IDELottieView(fileName: "extract_animation.json")
                 .scaleEffect(1.6)
                 .frame(width: 200, height: 200)
-            Text("VM_PROVISIONING_DOWNLOADING")
+            Text("VM_PROVISIONING_EXTRACTING")
                 .font(.title)
         }
     }

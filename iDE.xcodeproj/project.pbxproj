@@ -211,6 +211,7 @@
 		BA8F49442916A84400A7CC2A /* iDEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49432916A84400A7CC2A /* iDEUITests.swift */; };
 		BA8F49462916A84400A7CC2A /* iDEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49452916A84400A7CC2A /* iDEUITestsLaunchTests.swift */; };
 		BA958836292CEF2000275839 /* extract_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = BA958835292CEF2000275839 /* extract_animation.json */; };
+		BAA90585292FDE7D00F8D5DA /* Int64+SizeUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA90584292FDE7D00F8D5DA /* Int64+SizeUnit.swift */; };
 		BACCE4A1291D56D6002B2C61 /* Hypervisor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; };
 		BACCE4A2291D56D6002B2C61 /* Hypervisor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BAD257D2291D195100167EF1 /* SwiftUITrackableScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */; };
@@ -456,6 +457,7 @@
 		BA959EAC29193A9F00512801 /* gstcontroller-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstcontroller-1.0.0.xcframework"; path = "QEMUFrameworks/gstcontroller-1.0.0.xcframework"; sourceTree = "<group>"; };
 		BA959EAD29193A9F00512801 /* gstrtp-1.0.0.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gstrtp-1.0.0.xcframework"; path = "QEMUFrameworks/gstrtp-1.0.0.xcframework"; sourceTree = "<group>"; };
 		BA959EAE29193A9F00512801 /* zstd.1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = zstd.1.xcframework; path = QEMUFrameworks/zstd.1.xcframework; sourceTree = "<group>"; };
+		BAA90584292FDE7D00F8D5DA /* Int64+SizeUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int64+SizeUnit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -630,6 +632,7 @@
 			isa = PBXGroup;
 			children = (
 				BA730583291B981200104A2E /* SwiftUI+Binding.swift */,
+				BAA90584292FDE7D00F8D5DA /* Int64+SizeUnit.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1018,6 +1021,7 @@
 				BA309FC529214463000C0AA0 /* JITChecker.swift in Sources */,
 				BA22FD8F292E1A54000C16B0 /* VMFileInstaller.swift in Sources */,
 				BA6EB28E291A3E68008200F6 /* IDELogging.m in Sources */,
+				BAA90585292FDE7D00F8D5DA /* Int64+SizeUnit.swift in Sources */,
 				BA2917F8291A67710061A328 /* LicenseAgreement.swift in Sources */,
 				BA291802291A6C8A0061A328 /* LicenseAgreementDialogView.swift in Sources */,
 				BA7388EB29279F4000528E43 /* VMFileChecker.swift in Sources */,
