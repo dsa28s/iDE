@@ -47,7 +47,7 @@ extension IDEVmFileInstaller: DependencyKey {
                     do {
                         try data.write(to: URL(fileURLWithPath: imagePath.absoluteString))
                     } catch {
-                        print(error)
+                        logger.error("\(error)")
                     }
                     continuation.resume()
                 }

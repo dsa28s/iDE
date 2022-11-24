@@ -29,7 +29,7 @@ extension IDEVmFileChecker: DependencyKey {
                 do {
                     try FileManager.default.createDirectory(atPath: vmPath.absoluteString, withIntermediateDirectories: true, attributes: nil)
                 } catch {
-                    logger.info("\(error.localizedDescription)")
+                    logger.error("\(error.localizedDescription)")
                 }
             }
 
