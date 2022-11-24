@@ -86,6 +86,15 @@ enum iDEMain {
             logger.info("MEM: successfully removed memory limits")
         }
 
+        do {
+            let tmpFiles = try FileManager.default.contentsOfDirectory(atPath: NSTemporaryDirectory())
+            for tmpFile in tmpFiles {
+                try FileManager.default.removeItem(atPath: "\(NSTemporaryDirectory())\(tmpFile)")
+            }
+        } catch {
+            logger.error("TMP: Purge temporary files failed")
+        }
+
         iDEApp.main()
     }
 }
