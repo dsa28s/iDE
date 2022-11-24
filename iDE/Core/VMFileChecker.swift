@@ -34,7 +34,7 @@ extension IDEVmFileChecker: DependencyKey {
             }
 
             let fdPath = vmPath.appendingPathComponent("efi_vars.fd")
-            let imagePath = vmPath.appendingPathComponent("57B22AF2-F4B6-4A72-9C72-16E9BDECFE91.qcow2")
+            let imagePath = vmPath.appendingPathComponent("ide_vm.qcow2")
 
             let fdExist = FileManager.default.fileExists(atPath: fdPath.absoluteString)
             let imageExist = FileManager.default.fileExists(atPath: imagePath.absoluteString)
