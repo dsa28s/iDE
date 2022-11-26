@@ -211,6 +211,7 @@
 		BA8F49442916A84400A7CC2A /* iDEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49432916A84400A7CC2A /* iDEUITests.swift */; };
 		BA8F49462916A84400A7CC2A /* iDEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F49452916A84400A7CC2A /* iDEUITestsLaunchTests.swift */; };
 		BA958836292CEF2000275839 /* extract_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = BA958835292CEF2000275839 /* extract_animation.json */; };
+		BAA7AAD52931ED080040B20F /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = BAA7AAD42931ED080040B20F /* ZipArchive */; };
 		BAA90585292FDE7D00F8D5DA /* Int64+SizeUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA90584292FDE7D00F8D5DA /* Int64+SizeUnit.swift */; };
 		BACCE4A1291D56D6002B2C61 /* Hypervisor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; };
 		BACCE4A2291D56D6002B2C61 /* Hypervisor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA73057F291B969C00104A2E /* Hypervisor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -545,6 +546,7 @@
 				BA6BEADB29193B4400F6AF86 /* glib-2.0.0.xcframework in Frameworks */,
 				BA6BEB6929193B4700F6AF86 /* virglrenderer.1.xcframework in Frameworks */,
 				BA6BEB0F29193B4500F6AF86 /* json-glib-1.0.0.xcframework in Frameworks */,
+				BAA7AAD52931ED080040B20F /* ZipArchive in Frameworks */,
 				BA6BEAE929193B4400F6AF86 /* gstaudio-1.0.0.xcframework in Frameworks */,
 				BA6BEAFF29193B4500F6AF86 /* gstrtsp-1.0.0.xcframework in Frameworks */,
 				BA6BEB2D29193B4500F6AF86 /* qemu-microblaze-softmmu.xcframework in Frameworks */,
@@ -887,6 +889,7 @@
 				BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */,
 				BA7388E02927939100528E43 /* Lottie */,
 				BA22FD8C292E1919000C16B0 /* Alamofire */,
+				BAA7AAD42931ED080040B20F /* ZipArchive */,
 			);
 			productName = iDE;
 			productReference = BA8F49252916A84300A7CC2A /* iDE.app */;
@@ -969,6 +972,7 @@
 				BAD257D0291D195100167EF1 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */,
 				BA7388DF2927939100528E43 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				BA22FD8B292E1919000C16B0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BAA7AAD32931ED080040B20F /* XCRemoteSwiftPackageReference "ZipArchive" */,
 			);
 			productRefGroup = BA8F49262916A84300A7CC2A /* Products */;
 			projectDirPath = "";
@@ -1445,6 +1449,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		BAA7AAD32931ED080040B20F /* XCRemoteSwiftPackageReference "ZipArchive" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZipArchive/ZipArchive.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		BAD257D0291D195100167EF1 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/maxnatchanon/trackable-scroll-view.git";
@@ -1490,6 +1502,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BA7388DF2927939100528E43 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		BAA7AAD42931ED080040B20F /* ZipArchive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAA7AAD32931ED080040B20F /* XCRemoteSwiftPackageReference "ZipArchive" */;
+			productName = ZipArchive;
 		};
 		BAD257D1291D195100167EF1 /* SwiftUITrackableScrollView */ = {
 			isa = XCSwiftPackageProductDependency;
