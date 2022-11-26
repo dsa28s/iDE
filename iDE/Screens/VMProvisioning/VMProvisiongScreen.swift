@@ -20,6 +20,8 @@ struct IDEVMProvisioningScreen: View {
                 IDEVMProvisioningDownloadVmView(viewStore: viewStore)
             } else if viewStore.screenState == .extracting {
                 IDEVMProvisioningExtractVmView(viewStore: viewStore)
+            } else if viewStore.screenState == .booting {
+                IDEVMProvisioningBootVmView(viewStore: viewStore)
             }
         }
     }
@@ -83,8 +85,13 @@ private struct IDEVMProvisioningExtractVmView: View {
             IDELottieView(fileName: "extract_animation.json")
                 .scaleEffect(1.6)
                 .frame(width: 200, height: 200)
-            Text("VM_PROVISIONING_EXTRACTING")
-                .font(.title)
+            HStack {
+                Text("VM_PROVISIONING_EXTRACTING")
+                    .font(.title)
+                    .padding(.trailing, 8)
+                Text("\(viewStore.extractProgress)%")
+                    .font(.title)
+            }
         }
     }
 }

@@ -26,6 +26,7 @@ struct IDEVMProvisioning: ReducerProtocol {
         var screenState: ScreenState = .initial
         var currentDownloadOffset: Int64 = 0
         var totalDownloadSize: Int64 = 0
+        var extractProgress: Int = 0
     }
 
     enum Action: Equatable {
@@ -33,6 +34,7 @@ struct IDEVMProvisioning: ReducerProtocol {
         case download
         case downloading(currentOffset: Int64, totalSize: Int64)
         case extract
+        case extracting(progress: Int)
         case bootVm
         case ready
     }
@@ -64,6 +66,17 @@ struct IDEVMProvisioning: ReducerProtocol {
                 return .none
             case .extract:
                 state.screenState = .extracting
+                return .run { subscriber in
+                    await vmFileInstaller.extract { progress in
+                        subscriber.send(.extracting(progress: Int(progress)))
+                    }
+
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                        subscriber.send(.bootVm)
+                    }
+                }
+            case let .extracting(progress):
+                state.extractProgress = progress
                 return .none
             case .bootVm:
                 state.screenState = .booting
